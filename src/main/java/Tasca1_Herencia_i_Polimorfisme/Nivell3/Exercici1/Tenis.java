@@ -1,5 +1,7 @@
 package Tasca1_Herencia_i_Polimorfisme.Nivell3.Exercici1;
 
+import java.util.Scanner;
+
 public class Tenis extends Noticia {
 
     private String competicio;
@@ -25,6 +27,19 @@ public class Tenis extends Noticia {
     }
     public void setTenistes(String tenistes) {
         this.tenistes = tenistes;
+    }
+
+    public static Tenis noticiaTenis(Redactor redactor, String titular) {
+        Scanner sc = new Scanner(System.in);
+        String competicio;
+        String tenistes;
+
+        System.out.println("A quina competició fa referència aquesta notícia de tenis?");
+        competicio = sc.nextLine();
+        System.out.println("A quins tenistes fa referència aquesta notícia de tenis?");
+        tenistes = sc.nextLine();
+
+        return new Tenis(titular, redactor, competicio, tenistes);
     }
 
     @Override

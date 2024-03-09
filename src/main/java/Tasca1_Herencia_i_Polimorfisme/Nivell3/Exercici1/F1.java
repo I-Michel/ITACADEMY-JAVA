@@ -1,5 +1,7 @@
 package Tasca1_Herencia_i_Polimorfisme.Nivell3.Exercici1;
 
+import java.util.Scanner;
+
 public class F1 extends Noticia {
 
     private String escuderia;
@@ -17,6 +19,16 @@ public class F1 extends Noticia {
 
     public void setEscuderia(String escuderia) {
         this.escuderia = escuderia;
+    }
+
+    public static F1 noticiaF1(Redactor redactor, String titular) {
+        Scanner sc = new Scanner(System.in);
+        String escuderia;
+
+        System.out.println("A quina escuderia fa referència aquesta notícia de F1?");
+        escuderia = sc.nextLine();
+
+        return new F1(titular, redactor, escuderia);
     }
 
     @Override

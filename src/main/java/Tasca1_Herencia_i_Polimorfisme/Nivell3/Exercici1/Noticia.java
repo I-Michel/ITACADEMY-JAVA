@@ -1,5 +1,7 @@
 package Tasca1_Herencia_i_Polimorfisme.Nivell3.Exercici1;
 
+import java.util.Scanner;
+
 public abstract class Noticia {
     private Redactor redactor;
     private String titular;

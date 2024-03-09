@@ -1,5 +1,7 @@
 package Tasca1_Herencia_i_Polimorfisme.Nivell3.Exercici1;
 
+import java.util.Scanner;
+
 public class Motociclisme extends Noticia {
 
     private String equip;
@@ -17,6 +19,16 @@ public class Motociclisme extends Noticia {
 
     public void setEquip(String equip) {
         this.equip = equip;
+    }
+
+    public static Motociclisme noticiaMotociclisme(Redactor redactor, String titular) {
+        Scanner sc = new Scanner(System.in);
+        String club;
+
+        System.out.println("A quin equip fa referència aquesta notícia de motociclisme?");
+        club = sc.nextLine();
+
+        return new Motociclisme(titular, redactor, club);
     }
 
     @Override

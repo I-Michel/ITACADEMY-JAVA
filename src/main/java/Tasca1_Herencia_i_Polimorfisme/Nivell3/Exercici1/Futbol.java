@@ -1,5 +1,7 @@
 package Tasca1_Herencia_i_Polimorfisme.Nivell3.Exercici1;
 
+import java.util.Scanner;
+
 public class Futbol extends Noticia {
 
     private String competicio;
@@ -37,6 +39,22 @@ public class Futbol extends Noticia {
 
     public void setJugador(String jugador) {
         this.jugador = jugador;
+    }
+
+    public static Futbol noticiaFutbol(Redactor redactor, String titular) {
+        Scanner sc = new Scanner(System.in);
+        String competicio;
+        String club;
+        String jugador;
+
+        System.out.println("A quina competició fa referència aquesta notícia de futbol?");
+        competicio = sc.nextLine();
+        System.out.println("A quin club fa referència aquesta notícia de futbol?");
+        club = sc.nextLine();
+        System.out.println("A quin jugador fa referència aquesta notícia de futbol?");
+        jugador = sc.nextLine();
+
+        return new Futbol(titular, redactor, competicio, club, jugador);
     }
 
     @Override

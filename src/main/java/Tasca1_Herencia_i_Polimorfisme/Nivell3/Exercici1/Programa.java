@@ -102,12 +102,7 @@ public class Programa {
 
     public static void introduirNoticia() {
         Scanner sc = new Scanner(System.in);
-        String missatge = "";
-        String competicio;
-        String club;
-        String jugador;
-        String tenistes;
-        String escuderia;
+        String missatge = "Notícia introduïda amb èxit.";
         int index = trobarRedactor();
 
         System.out.println("Confirmes que vols introduir una noticia pel redactor/a " +
@@ -130,47 +125,22 @@ public class Programa {
                         "\n6. Cancel·lar.");
                 opc = sc.nextInt();
                 sc.nextLine();
+
                 switch (opc) {
                     case 1:
-                        System.out.println("A quina competició fa referència aquesta notícia de futbol?");
-                        competicio = sc.nextLine();
-                        System.out.println("A quin club fa referència aquesta notícia de futbol?");
-                        club = sc.nextLine();
-                        System.out.println("A quin jugador fa referència aquesta notícia de futbol?");
-                        jugador = sc.nextLine();
-                        redactors.get(index).getNoticies().add(new Futbol(titular, redactors.get(index),
-                                competicio, club, jugador));
-                        missatge = "Notícia introduïda amb èxit.";
+                        redactors.get(index).getNoticies().add(Futbol.noticiaFutbol(redactors.get(index), titular));
                         break;
                     case 2:
-                        System.out.println("A quina competició fa referència aquesta notícia de bàsquet?");
-                        competicio = sc.nextLine();
-                        System.out.println("A quin club fa referència aquesta notícia de bàsquet?");
-                        club = sc.nextLine();
-                        redactors.get(index).getNoticies().add(new Basquet(titular, redactors.get(index),
-                                competicio, club));
-                        missatge = "Notícia introduïda amb èxit.";
+                        redactors.get(index).getNoticies().add(Basquet.noticiaBasquet(redactors.get(index), titular));
                         break;
                     case 3:
-                        System.out.println("A quina competició fa referència aquesta notícia de tenis?");
-                        competicio = sc.nextLine();
-                        System.out.println("A quins tenistes fa referència aquesta notícia de tenis?");
-                        tenistes = sc.nextLine();
-                        redactors.get(index).getNoticies().add(new Tenis(titular, redactors.get(index),
-                                competicio, tenistes));
-                        missatge = "Notícia introduïda amb èxit.";
+                        redactors.get(index).getNoticies().add(Tenis.noticiaTenis(redactors.get(index), titular));
                         break;
                     case 4:
-                        System.out.println("A quina escuderia fa referència aquesta notícia de F1?");
-                        escuderia = sc.nextLine();
-                        redactors.get(index).getNoticies().add(new F1(titular, redactors.get(index), escuderia));
-                        missatge = "Notícia introduïda amb èxit.";
+                        redactors.get(index).getNoticies().add(F1.noticiaF1(redactors.get(index), titular));
                         break;
                     case 5:
-                        System.out.println("A quin equip fa referència aquesta notícia de motociclisme?");
-                        club = sc.nextLine();
-                        redactors.get(index).getNoticies().add(new Motociclisme(titular, redactors.get(index), club));
-                        missatge = "Notícia introduïda amb èxit.";
+                        redactors.get(index).getNoticies().add(Motociclisme.noticiaMotociclisme(redactors.get(index), titular));
                         break;
                     case 6:
                         missatge = "S'ha cancel·lat l'operació.";
