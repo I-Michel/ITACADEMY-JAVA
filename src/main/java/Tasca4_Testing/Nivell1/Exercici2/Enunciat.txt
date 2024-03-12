@@ -1,7 +1,7 @@
 ENUNCIAT DE L'EXERCICI
 
 Tasca 4: Testing
-Nivell 1, Exercici 2
+Nivell 1: JUnit, Exercici 2
 
 Crea una classe anomenada CalculoDni que calculi la lletra del DNI en rebre el número com a paràmetre.
 Crea una classe jUnit que verifiqui el seu correcte funcionament, parametritzant-la perquè el test rebi
