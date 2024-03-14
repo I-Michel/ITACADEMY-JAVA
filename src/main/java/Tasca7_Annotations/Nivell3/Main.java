@@ -1,10 +1,7 @@
 package Tasca7_Annotations.Nivell3;
 
-import Tasca7_Annotations.Nivell2.Exercici1.Paraula;
-import Tasca7_Annotations.Nivell2.Exercici1.Serialitzador;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
 import java.io.File;
 import java.io.FileWriter;
 
@@ -14,7 +11,7 @@ public class Main {
         /* És exactament el mateix que he fet al nivell 2 (sense saber que després el que es demanava
          * al nivell 3, ja era el que havia fet). Assenyalo amb un comentari les parts adients. */
 
-        Tasca7_Annotations.Nivell2.Exercici1.Paraula paraula = new Paraula("你好", "Xinès");
+        Paraula paraula = new Paraula("你好", "Xinès");
 
         serialitzadorJson(paraula);
     }
@@ -22,8 +19,8 @@ public class Main {
     public static void serialitzadorJson(Object object) {
         try {
             Class<?> classe = object.getClass();
-            if (classe.isAnnotationPresent(Tasca7_Annotations.Nivell2.Exercici1.Serialitzador.class)) {
-                Tasca7_Annotations.Nivell2.Exercici1.Serialitzador anotacio = classe.getAnnotation(Serialitzador.class);
+            if (classe.isAnnotationPresent(Serialitzador.class)) {
+                Serialitzador anotacio = classe.getAnnotation(Serialitzador.class);
                 // Aquí és on ja havia complert una part del nivell 3.
 
                 String nomArxiu = anotacio.nomArxiu();
