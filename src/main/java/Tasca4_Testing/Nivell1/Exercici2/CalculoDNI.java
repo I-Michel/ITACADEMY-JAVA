@@ -22,6 +22,7 @@ public class CalculoDNI {
         return lletra;
     }
 
+    @Override
     public String toString() {
         return "DNI nº " + NUM_DNI + " amb lletra " + calcularLletra() + ".";
     }

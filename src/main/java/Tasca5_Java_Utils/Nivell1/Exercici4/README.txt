@@ -20,3 +20,18 @@ INSTRUCCIONES PARA EJECUTAR EL PROGRAMA DESDE LA LÍNEA DE COMANDOS:
    en pantalla.
 
    ¡Gracias por llegar hasta aquí!
+
+ --------------------------------------------------------------------------
+
+ ENUNCIAT DE L'EXERCICI
+
+ Tasca 5: Java Utils
+ Nivell 1, Exercici 4
+
+ ****************************************************************************
+ Els exercicis dels 3 nivells han d'executar-se des de la línia de comandos,
+ i no sols des de l'editor. Crea un fitxer anomenat “readme.txt” per explicar
+ el comando a executar a cada exercici.
+ ****************************************************************************
+
+ Afegeix la funcionalitat de llegir qualsevol fitxer TXT i mostra el seu contingut per consola.

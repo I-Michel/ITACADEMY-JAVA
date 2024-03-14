@@ -32,6 +32,7 @@ public class Persona {
         this.edat = edat;
     }
 
+    @Override
     public String toString() {
         return "Persona amb nom i cognom " + this.nom + " " + this.cognom +
                 " i " + this.edat + " anys d'edat.";

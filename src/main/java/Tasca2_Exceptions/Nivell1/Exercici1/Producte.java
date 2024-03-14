@@ -24,6 +24,7 @@ public class Producte {
         this.preu = preu;
     }
 
+    @Override
     public String toString() {
         return "Producte: " + this.nom + " (" + this.preu + " €)";
     }

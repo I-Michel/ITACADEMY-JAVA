@@ -29,6 +29,7 @@ public class Mes {
         mesos.add(new Mes("desembre"));
     }
 
+    @Override
     public String toString() {
         return "Mes: " + this.nom;
     }

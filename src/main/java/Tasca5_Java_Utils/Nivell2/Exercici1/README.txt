@@ -14,3 +14,25 @@ INSTRUCCIONES PARA EJECUTAR EL PROGRAMA DESDE LA LÍNEA DE COMANDOS:
    con el árbol de directorios ordenado alfabéticamente.
 
    ¡Gracias por llegar hasta aquí!
+
+--------------------------------------------------------------------------
+
+ENUNCIAT DE L'EXERCICI
+
+Tasca 5: Java Utils
+Nivell 2, Exercici 1
+
+****************************************************************************
+Els exercicis dels 3 nivells han d'executar-se des de la línia de comandos,
+i no sols des de l'editor. Crea un fitxer anomenat “readme.txt” per explicar
+el comando a executar a cada exercici.
+****************************************************************************
+
+Executa l'exercici 3 del nivell anterior parametritzant tots els mètodes en un fitxer de configuració.
+
+Pots utilitzar un fitxer Java Properties, o bé la llibreria Apache Commons Configuration si ho prefereixes.
+
+De l'exercici anterior, parametritza el següent:
+- Directori a llegir.
+- Nom i directori del fitxer TXT resultant.
+

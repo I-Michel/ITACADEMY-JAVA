@@ -42,6 +42,7 @@ public class Venda {
         }
     }
 
+    @Override
     public String toString() {
         String resposta = "";
         for (Producte producte : this.llistaProductes) {

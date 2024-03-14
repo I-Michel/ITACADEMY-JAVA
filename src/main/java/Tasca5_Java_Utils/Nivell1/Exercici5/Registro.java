@@ -33,6 +33,7 @@ public class Registro implements Serializable {
         this.fecha = fecha;
     }
 
+    @Override
     public String toString() {
         return this.tipo + " con nombre \"" + this.nombre + "\" y última fecha de modificación el " +
                 this.fecha + ".";

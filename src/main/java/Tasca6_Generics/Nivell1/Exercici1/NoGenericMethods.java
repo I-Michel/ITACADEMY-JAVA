@@ -32,6 +32,7 @@ public class NoGenericMethods {
         this.pax3 = pax3;
     }
 
+    @Override
     public String toString() {
         return "\nAquest NoGenericMethods conté:\n- " + this.pax1 + "\n- " +
                 this.pax2 + "\n- " + this.pax3;
