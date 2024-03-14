@@ -22,6 +22,7 @@ public class TreballadorPresencial extends Treballador {
         return hores * getPreuHora() + benzina;
     }
 
+    @Override
     public String toString() {
         return "Treballador presencial " + super.getNom() + " " + super.getCognom() + " amb un sou de " +
                 super.getPreuHora() + " euros per hora treballada més un fixe de " +

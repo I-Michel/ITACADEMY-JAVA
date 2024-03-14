@@ -62,12 +62,12 @@ public class Main {
 
     public static void guardar(String resultado) throws IOException {
 
-        File f = new File("arbolDirectorios.txt");
+        File f = new File("output", "arbolDirectorios.txt");
         if (!f.exists()) {
             f.createNewFile();
         }
 
-        try (FileWriter fw = new FileWriter("arbolDirectorios.txt", true)) {
+        try (FileWriter fw = new FileWriter(f, true)) {
             fw.write(resultado + "\n");
         } catch (IOException e) {
             System.out.println(e.getMessage());

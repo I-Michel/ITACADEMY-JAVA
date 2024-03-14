@@ -23,6 +23,7 @@ public class TreballadorOnline extends Treballador {
         System.out.println("Ya no se pagan las dietas a los trabajadores online.");
     }
 
+    @Override
     public String toString() {
         return "Treballador online " + super.getNom() + " " + super.getCognom() + " amb un sou de " +
                 super.getPreuHora() + " euros per hora treballada més un fixe de " +

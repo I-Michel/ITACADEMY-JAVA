@@ -18,7 +18,7 @@ public class Main {
 
         Properties propiedades = new Properties();
         propiedades.load(Main.class.getResourceAsStream("/config.properties"));
-        String rutaDirectorio = propiedades.getProperty("directoriT5N2");
+        String rutaDirectorio = propiedades.getProperty("directorioT5N2");
 
         File directorio = new File(rutaDirectorio);
 
@@ -27,21 +27,21 @@ public class Main {
                     "\n\n*****************************************************" +
                     "\n*** Ordenando y generando arbol de directorios... ***" +
                     "\n*****************************************************");
-            generarArbol(directorio);
+            generarArbol(directorio, propiedades);
             System.out.println("\nARCHIVO .TXT CREADO CON ÉXITO.");
         } else {
             System.out.println("Ruta no válida.");
         }
     }
 
-    public static void generarArbol(File directorio) throws IOException {
+    public static void generarArbol(File directorio, Properties propiedades) throws IOException {
 
         File[] arbolDirectorios = directorio.listFiles();
         String resultado = "";
         if (arbolDirectorios == null || arbolDirectorios.length == 0) {
             resultado = ("   ** El directorio " + directorio.getName().toUpperCase() +
                     " está vacío y no contiene ningún archivo o carpeta. **");
-            guardar(resultado);
+            guardar(resultado, propiedades);
         } else {
             Arrays.sort(arbolDirectorios);
             SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
@@ -50,25 +50,25 @@ public class Main {
                 if (arbolDirectorio.isDirectory()) {
                     resultado = ("\n" + arbolDirectorio.getName().toUpperCase() + " (Directorio - Última fecha de modificación: " +
                             fecha.format(arbolDirectorio.lastModified()) + ")");
-                    guardar(resultado);
-                    generarArbol(arbolDirectorio);
+                    guardar(resultado, propiedades);
+                    generarArbol(arbolDirectorio, propiedades);
                 } else {
                     resultado = ("   - " + arbolDirectorio.getName() + " (Archivo - Última fecha de modificación: " +
                             fecha.format(arbolDirectorio.lastModified()) + ")");
-                    guardar(resultado);
+                    guardar(resultado, propiedades);
                 }
             }
         }
     }
 
-    public static void guardar(String resultado) throws IOException {
+    public static void guardar(String resultado, Properties propiedades) throws IOException {
 
-        File f = new File("arbolDirectorios_Nivell2.txt");
+        File f = new File(propiedades.getProperty("directorioGuardar"), propiedades.getProperty("nombreTxt"));
         if (!f.exists()) {
             f.createNewFile();
         }
 
-        try (FileWriter fw = new FileWriter("arbolDirectorios_Nivell2.txt", true)) {
+        try (FileWriter fw = new FileWriter(f, true)) {
             fw.write(resultado + "\n");
         } catch (IOException e) {
             System.out.println(e.getMessage());

@@ -10,11 +10,7 @@ INSTRUCCIONES PARA EJECUTAR EL PROGRAMA DESDE LA LÍNEA DE COMANDOS:
    encuentre el programa que queremos ejecutar. Por ejemplo:
    java C:\Users\ingri\IdeaProjects\Sprint1\src\main\java\Tasca5_Java_Utils\Nivell1\Exercici3\Main.java
 
-3. Pulsamos intro y el programa se ejecutará. En este caso, nos pide que
-   introduzcamos la ruta del directorio que queremos que nos ordene.
-   Por ejemplo: C:\Users\ingri\IdeaProjects\Sprint1\src\main
-
-4. Pulsamos intro nuevamente y el programa nos creará un archivo.txt
+3. Pulsamos intro y el programa se ejecutará. Nos creará un archivo.txt
    con el árbol de directorios ordenado alfabéticamente.
 
    ¡Gracias por llegar hasta aquí!

@@ -18,6 +18,7 @@ public class TreballadorOnline extends Treballador {
         return hores * getPreuHora() + INTERNET;
     }
 
+    @Override
     public String toString() {
         return "Treballador online " + super.getNom() + " " + super.getCognom() + " amb un sou de " +
                 super.getPreuHora() + " euros per hora treballada més un fixe de " +

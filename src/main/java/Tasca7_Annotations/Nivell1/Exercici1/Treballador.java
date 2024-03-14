@@ -36,6 +36,7 @@ public class Treballador {
         return hores * getPreuHora();
     }
 
+    @Override
     public String toString() {
         return "Treballador " + this.nom + " " + this.cognom + " amb un sou de " +
                 this.preuHora + " euros per hora treballada.";

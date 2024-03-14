@@ -1,0 +1,229 @@
+
+TASCA1_HERENCIA_I_POLIMORFISME (Directorio - Última fecha de modificación: 04/03/2024 19:51:13)
+
+NIVELL1 (Directorio - Última fecha de modificación: 24/02/2024 16:36:17)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 07/03/2024 10:52:54)
+   - Corda.java (Archivo - Última fecha de modificación: 07/03/2024 10:52:54)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Instrument.java (Archivo - Última fecha de modificación: 07/03/2024 10:52:54)
+   - Main.java (Archivo - Última fecha de modificación: 07/03/2024 10:52:54)
+   - Percussio.java (Archivo - Última fecha de modificación: 07/03/2024 10:52:54)
+   - Vent.java (Archivo - Última fecha de modificación: 07/03/2024 10:52:54)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Cotxe.java (Archivo - Última fecha de modificación: 29/02/2024 19:03:20)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Main.java (Archivo - Última fecha de modificación: 24/02/2024 16:36:49)
+
+NIVELL2 (Directorio - Última fecha de modificación: 04/03/2024 19:47:27)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 04/03/2024 19:50:14)
+   - Camera.java (Archivo - Última fecha de modificación: 04/03/2024 19:42:40)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 19:38:02)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 19:50:14)
+   - Rellotge.java (Archivo - Última fecha de modificación: 04/03/2024 19:42:52)
+   - Smartphone.java (Archivo - Última fecha de modificación: 04/03/2024 19:50:14)
+   - Telefon.java (Archivo - Última fecha de modificación: 04/03/2024 19:50:14)
+
+NIVELL3 (Directorio - Última fecha de modificación: 09/03/2024 21:20:50)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 09/03/2024 21:04:45)
+   - Basquet.java (Archivo - Última fecha de modificación: 09/03/2024 21:01:13)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 19:56:34)
+   - F1.java (Archivo - Última fecha de modificación: 09/03/2024 21:03:21)
+   - Futbol.java (Archivo - Última fecha de modificación: 09/03/2024 20:58:56)
+   - Main.java (Archivo - Última fecha de modificación: 06/03/2024 19:24:12)
+   - Motociclisme.java (Archivo - Última fecha de modificación: 09/03/2024 21:03:21)
+   - Noticia.java (Archivo - Última fecha de modificación: 09/03/2024 20:58:56)
+   - Programa.java (Archivo - Última fecha de modificación: 09/03/2024 21:04:45)
+   - Redactor.java (Archivo - Última fecha de modificación: 05/03/2024 11:53:40)
+   - Tenis.java (Archivo - Última fecha de modificación: 09/03/2024 21:01:13)
+
+TASCA2_EXCEPTIONS (Directorio - Última fecha de modificación: 21/02/2024 12:24:32)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/02/2024 12:24:36)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Main.java (Archivo - Última fecha de modificación: 22/02/2024 10:07:36)
+   - Producte.java (Archivo - Última fecha de modificación: 04/03/2024 10:21:48)
+   - Venda.java (Archivo - Última fecha de modificación: 04/03/2024 10:21:48)
+   - VendaBuidaException.java (Archivo - Última fecha de modificación: 22/02/2024 10:07:36)
+
+NIVELL2 (Directorio - Última fecha de modificación: 07/03/2024 11:13:30)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 07/03/2024 18:59:44)
+   - Entrada.java (Archivo - Última fecha de modificación: 07/03/2024 18:59:44)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 07/03/2024 11:16:41)
+   - Main.java (Archivo - Última fecha de modificación: 07/03/2024 18:57:41)
+
+TASCA3_JAVA_COLLECTIONS (Directorio - Última fecha de modificación: 22/02/2024 12:25:20)
+
+NIVELL1 (Directorio - Última fecha de modificación: 22/02/2024 10:07:59)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 11:50:49)
+   - Month.java (Archivo - Última fecha de modificación: 04/03/2024 10:19:56)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
+   - Main.java (Archivo - Última fecha de modificación: 22/02/2024 10:07:36)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 07/03/2024 12:54:12)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:09)
+   - Juego.java (Archivo - Última fecha de modificación: 28/02/2024 13:52:14)
+   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 11:51:33)
+
+NIVELL2 (Directorio - Última fecha de modificación: 07/03/2024 20:15:12)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 08/03/2024 16:59:31)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 07/03/2024 12:43:49)
+   - Main.java (Archivo - Última fecha de modificación: 08/03/2024 16:59:31)
+   - Restaurant.java (Archivo - Última fecha de modificación: 07/03/2024 20:13:08)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 08/03/2024 16:59:20)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 07/03/2024 20:16:00)
+   - Main.java (Archivo - Última fecha de modificación: 08/03/2024 16:59:20)
+   - Restaurant.java (Archivo - Última fecha de modificación: 08/03/2024 16:58:11)
+
+TASCA4_TESTING (Directorio - Última fecha de modificación: 11/03/2024 11:11:41)
+
+NIVELL1 (Directorio - Última fecha de modificación: 26/02/2024 18:10:33)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 10/03/2024 20:00:22)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 10/03/2024 20:00:22)
+   - Main.java (Archivo - Última fecha de modificación: 26/02/2024 14:09:15)
+   - Mes.java (Archivo - Última fecha de modificación: 04/03/2024 10:19:27)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 10/03/2024 20:00:22)
+   - CalculoDNI.java (Archivo - Última fecha de modificación: 05/03/2024 11:05:21)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 10/03/2024 20:00:22)
+   - Main.java (Archivo - Última fecha de modificación: 05/03/2024 11:05:05)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 10/03/2024 20:00:22)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 10/03/2024 20:00:22)
+   - MainT4_N1_Ex3.java (Archivo - Última fecha de modificación: 26/02/2024 18:29:02)
+
+NIVELL2 (Directorio - Última fecha de modificación: 10/03/2024 19:58:09)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 11/03/2024 10:55:20)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 10/03/2024 19:59:55)
+   - Main.java (Archivo - Última fecha de modificación: 11/03/2024 10:55:20)
+
+NIVELL3 (Directorio - Última fecha de modificación: 11/03/2024 12:42:25)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 11/03/2024 12:42:25)
+   - Main.java (Archivo - Última fecha de modificación: 11/03/2024 12:22:47)
+
+TASCA5_JAVA_UTILS (Directorio - Última fecha de modificación: 11/03/2024 13:40:23)
+
+NIVELL1 (Directorio - Última fecha de modificación: 28/02/2024 13:39:02)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 04/03/2024 13:02:45)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:02:45)
+   - Main.java (Archivo - Última fecha de modificación: 28/02/2024 19:50:44)
+   - README.txt (Archivo - Última fecha de modificación: 27/02/2024 19:52:23)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 04/03/2024 13:02:45)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:02:45)
+   - Main.java (Archivo - Última fecha de modificación: 28/02/2024 19:50:19)
+   - README.txt (Archivo - Última fecha de modificación: 28/02/2024 19:01:35)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 04/03/2024 13:03:05)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:03:05)
+   - Main.java (Archivo - Última fecha de modificación: 28/02/2024 19:51:09)
+   - README.txt (Archivo - Última fecha de modificación: 28/02/2024 19:01:35)
+
+EXERCICI4 (Directorio - Última fecha de modificación: 04/03/2024 13:03:25)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:03:25)
+   - Main.java (Archivo - Última fecha de modificación: 28/02/2024 19:51:09)
+   - README.txt (Archivo - Última fecha de modificación: 28/02/2024 19:01:35)
+
+EXERCICI5 (Directorio - Última fecha de modificación: 04/03/2024 13:03:49)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:03:49)
+   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 18:35:18)
+   - README.txt (Archivo - Última fecha de modificación: 28/02/2024 20:08:00)
+   - Registro.java (Archivo - Última fecha de modificación: 04/03/2024 10:18:50)
+
+NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 10:54:19)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 13/03/2024 11:13:09)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 11/03/2024 13:41:54)
+   - Main.java (Archivo - Última fecha de modificación: 13/03/2024 11:13:09)
+   - README.txt (Archivo - Última fecha de modificación: 28/02/2024 19:01:35)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 13/03/2024 10:54:19)
+   ** El directorio EXERCICI2 está vacío y no contiene ningún archivo o carpeta. **
+
+TASCA6_GENERICS (Directorio - Última fecha de modificación: 29/02/2024 10:13:16)
+
+NIVELL1 (Directorio - Última fecha de modificación: 29/02/2024 10:13:27)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 04/03/2024 13:04:23)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:04:23)
+   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 11:22:36)
+   - NoGenericMethods.java (Archivo - Última fecha de modificación: 04/03/2024 10:17:19)
+   - Persona.java (Archivo - Última fecha de modificación: 04/03/2024 10:17:19)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 04/03/2024 13:04:48)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:04:48)
+   - GenericMethods.java (Archivo - Última fecha de modificación: 29/02/2024 11:44:28)
+   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 11:49:13)
+   - Persona.java (Archivo - Última fecha de modificación: 04/03/2024 10:17:59)
+
+TASCA7_ANNOTATIONS (Directorio - Última fecha de modificación: 29/02/2024 11:53:33)
+
+NIVELL1 (Directorio - Última fecha de modificación: 29/02/2024 11:53:50)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 04/03/2024 13:07:36)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:07:36)
+   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 12:25:36)
+   - Treballador.java (Archivo - Última fecha de modificación: 04/03/2024 10:15:06)
+   - TreballadorOnline.java (Archivo - Última fecha de modificación: 04/03/2024 10:15:06)
+   - TreballadorPresencial.java (Archivo - Última fecha de modificación: 04/03/2024 10:15:06)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 04/03/2024 13:08:02)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:02)
+   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 12:42:39)
+   - Treballador.java (Archivo - Última fecha de modificación: 04/03/2024 10:16:09)
+   - TreballadorOnline.java (Archivo - Última fecha de modificación: 04/03/2024 10:16:09)
+   - TreballadorPresencial.java (Archivo - Última fecha de modificación: 04/03/2024 10:16:09)
+
+TASCA8_LAMBDAS (Directorio - Última fecha de modificación: 03/03/2024 19:29:51)
+
+NIVELL1 (Directorio - Última fecha de modificación: 04/03/2024 12:26:32)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 11:09:39)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 11:19:48)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 11:23:52)
+
+EXERCICI4 (Directorio - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 11:23:52)
+
+EXERCICI5 (Directorio - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 12:15:08)
+   - Pi.java (Archivo - Última fecha de modificación: 04/03/2024 12:06:19)
+
+EXERCICI6 (Directorio - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 12:23:53)
+
+EXERCICI7 (Directorio - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 12:26:14)
+
+EXERCICI8 (Directorio - Última fecha de modificación: 04/03/2024 13:40:53)
+   - Enunciat.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
+   - FuncInter.java (Archivo - Última fecha de modificación: 04/03/2024 13:33:55)
+   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 13:40:53)

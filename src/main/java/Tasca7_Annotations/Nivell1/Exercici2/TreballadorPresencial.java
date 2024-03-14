@@ -27,6 +27,7 @@ public class TreballadorPresencial extends Treballador {
         System.out.println("Los trabajadores presenciales ya no realizan horas nocturnas.");
     }
 
+    @Override
     public String toString() {
         return "Treballador presencial " + super.getNom() + " " + super.getCognom() + " amb un sou de " +
                 super.getPreuHora() + " euros per hora treballada més un fixe de " +
