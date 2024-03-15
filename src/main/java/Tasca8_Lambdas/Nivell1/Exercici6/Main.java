@@ -20,7 +20,6 @@ public class Main {
         words.add("dfgfdhfsadgdfgdf");
         words.add("火");
 
-        words.sort(Comparator.comparing(String::length));
-        words.forEach(System.out::println);
+        words.stream().sorted(Comparator.comparing(String::length)).forEach(System.out::println);
     }
 }

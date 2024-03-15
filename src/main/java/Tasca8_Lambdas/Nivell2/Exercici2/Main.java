@@ -14,8 +14,7 @@ public class Main {
         integers.add(86);
         integers.add(24);
 
-        String cadenaIntegers = integers.stream()
-                .map(i -> (i % 2 == 0 ? "e" : "o") + i)
+        String cadenaIntegers = integers.stream().map(i -> (i % 2 == 0 ? "e" : "o") + i)
                 .collect(Collectors.joining(", "));
 
         System.out.println(cadenaIntegers);

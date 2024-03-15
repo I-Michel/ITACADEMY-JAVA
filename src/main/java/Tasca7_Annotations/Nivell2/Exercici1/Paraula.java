@@ -1,6 +1,6 @@
 package Tasca7_Annotations.Nivell2.Exercici1;
 
-@Serialitzador
+@Serialitzador(directori = "output")
 public class Paraula {
     private String nom;
     private String idioma;

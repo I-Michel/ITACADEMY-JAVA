@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class GenericMethods {
 
-    public static <T, String> void metodeGeneric(ArrayList<T> llista) {
+    public static <T> void metodeGeneric(ArrayList<T> llista) {
         for(T t : llista) {
             System.out.println("- " + t);
         }

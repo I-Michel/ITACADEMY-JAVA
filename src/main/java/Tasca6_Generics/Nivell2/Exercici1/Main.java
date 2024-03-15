@@ -8,7 +8,7 @@ public class Main {
         int primitiu = 12345;
 
         GenericMethods.metodeGeneric(pax1, string, primitiu);
-        GenericMethods.metodeGeneric(string, primitiu, pax1);
+        // GenericMethods.metodeGeneric(string, primitiu, pax1); ---> "primitiu" al no ser String no compila.
 
     }
 }

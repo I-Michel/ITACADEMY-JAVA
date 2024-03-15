@@ -19,9 +19,7 @@ public class Main {
         words.add("Aloe vera");
         words.add("Ant");
 
-        words.stream()
-                .filter(a -> a.startsWith("A") && a.length() == 3)
-                .toList()
+        words.stream().filter(a -> a.startsWith("A") && a.length() == 3).toList()
                 .forEach(System.out::println);
 
     }

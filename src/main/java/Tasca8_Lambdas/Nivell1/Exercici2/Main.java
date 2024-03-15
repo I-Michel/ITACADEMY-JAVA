@@ -15,9 +15,6 @@ public class Main {
         words.add("Work");
         words.add("Tea");
 
-        words.stream()
-                .filter(o -> o.contains("o") && o.length() > 5)
-                .toList()
-                .forEach(System.out::println);
+        words.stream().filter(o -> o.contains("o") && o.length() > 5).toList().forEach(System.out::println);
     }
 }
