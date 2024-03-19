@@ -14,8 +14,7 @@ public class Main {
 
         System.out.println(vent1);
         System.out.println(corda1);
-        System.out.println("El " + percussio1.getNomInstrument() + " té un preu de " +
-                percussio1.getPreuInstrument() + " euros. \n");
+        System.out.println(percussio1);
 
         System.out.println("Tocant instruments:");
         vent1.tocar();

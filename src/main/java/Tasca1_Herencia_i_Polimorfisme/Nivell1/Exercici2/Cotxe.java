@@ -33,6 +33,7 @@ public class Cotxe {
         return "El vehicle està frenant.";
     }
 
+    @Override
     public String toString() {
         return "Cotxe de la marca " + MARCA + ", model " + model +
                 " i una potència de " + POTENCIA + " CV.";

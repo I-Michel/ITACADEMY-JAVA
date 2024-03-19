@@ -3,11 +3,11 @@ package Tasca1_Herencia_i_Polimorfisme.Nivell3.Exercici1;
 import java.util.Scanner;
 
 public abstract class Noticia {
-    private Redactor redactor;
-    private String titular;
-    private String text;
-    private int puntuacio;
-    private float preu;
+    protected Redactor redactor;
+    protected String titular;
+    protected String text;
+    protected int puntuacio;
+    protected float preu;
 
     public Noticia(String titular, Redactor redactor) {
         this.redactor = redactor;

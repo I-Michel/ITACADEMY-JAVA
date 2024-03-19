@@ -6,10 +6,12 @@ public class Percussio extends Instrument {
         super(nomInstrument, preuInstrument);
     }
 
+    @Override
     public void tocar(){
         System.out.println("Està sonant un instrument de percussió");
     }
 
+    @Override
     public String toString() {
         return "Instrument de percussió amb nom " + super.getNomInstrument() +
                 " i amb un preu de " + super.getPreuInstrument() + " euros.";

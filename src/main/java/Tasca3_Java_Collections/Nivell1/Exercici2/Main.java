@@ -13,11 +13,10 @@ public class Main {
 
         ListIterator<Integer> listIterator = llista1.listIterator();
 
-        // Primero situo el cursor del Iterator al final del List
         while (listIterator.hasNext()) {
             listIterator.next();
         }
-        // Una vez ya en el final, empiezo a añadir los elementos leyéndolos hacia atrás
+
         while (listIterator.hasPrevious()) {
             llista2.add(listIterator.previous());
         }

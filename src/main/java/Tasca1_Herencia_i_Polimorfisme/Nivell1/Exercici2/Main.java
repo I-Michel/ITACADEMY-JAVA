@@ -7,12 +7,9 @@ public class Main {
         Cotxe cotxe1 = new Cotxe(329);
 
         System.out.println(cotxe1);
-        System.out.println(cotxe1.toString());
-        System.out.println("Tinc un cotxe " + cotxe1.getMARCA() + " " + cotxe1.getModel() +
+        System.out.println("Tinc un cotxe " + Cotxe.getMARCA() + " " + Cotxe.getModel() +
                             " amb una potència de " + cotxe1.getPOTENCIA() + " CV.");
 
-        System.out.println(cotxe1.accelerar() + "\n" + cotxe1.frenar());
+        System.out.println(cotxe1.accelerar() + "\n" + Cotxe.frenar());
     }
 }
-
-
