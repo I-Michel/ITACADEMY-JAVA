@@ -1,10 +1,10 @@
 package Tasca7_Annotations.Nivell1.Exercici1;
 
-public class Treballador {
+public abstract class Treballador {
 
-    private String nom;
-    private String cognom;
-    private float preuHora;
+    protected String nom;
+    protected String cognom;
+    protected float preuHora;
 
     public Treballador(String nom, String cognom, float preuHora) {
         this.nom = nom;
@@ -32,9 +32,7 @@ public class Treballador {
         this.preuHora = preuHora;
     }
 
-    public float calcularSou(int hores) {
-        return hores * getPreuHora();
-    }
+    public abstract float calcularSou(int hores);
 
     @Override
     public String toString() {

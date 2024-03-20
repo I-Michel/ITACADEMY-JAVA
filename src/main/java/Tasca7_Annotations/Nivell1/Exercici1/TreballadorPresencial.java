@@ -2,11 +2,10 @@ package Tasca7_Annotations.Nivell1.Exercici1;
 
 public class TreballadorPresencial extends Treballador {
 
-    private static float benzina;
+    private static float benzina = 50f;
 
     public TreballadorPresencial(String nom, String cognom, float preuHora) {
         super(nom, cognom, preuHora);
-        benzina = 50f;
     }
 
     public static float getBenzina() {

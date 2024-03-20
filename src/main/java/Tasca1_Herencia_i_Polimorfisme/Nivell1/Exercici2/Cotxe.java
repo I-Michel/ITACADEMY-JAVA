@@ -4,11 +4,10 @@ public class Cotxe {
 
     private final static String MARCA = "Honda";
     private final int POTENCIA;
-    private static String model;
+    private static String model = "Civic";
 
     public Cotxe(int potencia) {
         this.POTENCIA = potencia;
-        model = "Civic";
     }
 
     public static String getMARCA() {
