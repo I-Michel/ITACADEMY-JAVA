@@ -71,19 +71,23 @@ public class Main {
         String ruta = sc.nextLine();
         File directorio = new File(ruta);
 
-        if (directorio.isDirectory()) {
-            System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
-                    "\n\n*****************************************************" +
-                    "\n*** Ordenando y generando arbol de directorios... ***" +
-                    "\n*****************************************************");
-            generarArbol(directorio);
-            System.out.println("\nARCHIVO .TXT CREADO CON ÉXITO.");
-        } else if (directorio.isFile()) {
-            System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
-                    "\n\n*** Leyendo e imprimiendo archivo... ***\n");
-            leer();
-        } else {
-            System.out.println("Ruta no válida.");
+        try {
+            if (directorio.isDirectory()) {
+                System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
+                        "\n\n*****************************************************" +
+                        "\n*** Ordenando y generando arbol de directorios... ***" +
+                        "\n*****************************************************");
+                generarArbol(directorio);
+                System.out.println("\nARCHIVO .TXT CREADO CON ÉXITO.");
+            } else if (directorio.isFile()) {
+                System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
+                        "\n\n*** Leyendo e imprimiendo archivo... ***\n");
+                leer();
+            } else {
+                throw new RutaNoValidaException("Error: ruta no válida.");
+            }
+        } catch (RutaNoValidaException e) {
+            System.out.println(e.getMessage());
         }
     }
 
@@ -91,32 +95,38 @@ public class Main {
 
         File[] arbolDirectorios = directorio.listFiles();
         String resultado = "";
-        if (arbolDirectorios == null || arbolDirectorios.length == 0) {
-            resultado = ("   ** El directorio " + directorio.getName().toUpperCase() +
-                    " está vacío y no contiene ningún archivo o carpeta. **");
-            guardar(resultado);
-        } else {
-            Arrays.sort(arbolDirectorios);
-            SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-            for (int i = 0; i < arbolDirectorios.length; i++) {
-                File arbolDirectorio = arbolDirectorios[i];
-                if (arbolDirectorio.isDirectory()) {
-                    resultado = ("\n" + arbolDirectorio.getName().toUpperCase() + " (Directorio - Última fecha de modificación: " +
-                            fecha.format(arbolDirectorio.lastModified()) + ")");
-                    guardar(resultado);
-                    generarArbol(arbolDirectorio);
-                } else {
-                    resultado = ("   - " + arbolDirectorio.getName() + " (Archivo - Última fecha de modificación: " +
-                            fecha.format(arbolDirectorio.lastModified()) + ")");
-                    guardar(resultado);
+
+        try {
+            if (arbolDirectorios == null || arbolDirectorios.length == 0) {
+                throw new DirectorioVacioException("** El directorio " + directorio.getName().toUpperCase() +
+                        " está vacío y no contiene ningún archivo o carpeta. **");
+            } else {
+                Arrays.sort(arbolDirectorios);
+                SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+                for (int i = 0; i < arbolDirectorios.length; i++) {
+                    File arbolDirectorio = arbolDirectorios[i];
+                    if (arbolDirectorio.isDirectory()) {
+                        resultado = ("\n" + arbolDirectorio.getName().toUpperCase() + " (Directorio - Última fecha de modificación: " +
+                                fecha.format(arbolDirectorio.lastModified()) + ")");
+                        guardar(resultado);
+                        generarArbol(arbolDirectorio);
+                    } else {
+                        resultado = ("   - " + arbolDirectorio.getName() + " (Archivo - Última fecha de modificación: " +
+                                fecha.format(arbolDirectorio.lastModified()) + ")");
+                        guardar(resultado);
+                    }
                 }
             }
+        } catch (DirectorioVacioException e) {
+            System.out.println(e.getMessage());
+            resultado = e.getMessage();
+            guardar(resultado);
         }
     }
 
     public static void guardar(String resultado) throws IOException {
 
-        File f = new File("arbolDirectorios.txt");
+        File f = new File("output", "arbolDirectorios.txt");
         if (!f.exists()) {
             f.createNewFile();
         }
@@ -135,21 +145,25 @@ public class Main {
         String ruta = sc.nextLine();
         File directorio = new File(ruta);
 
-        if (directorio.isFile()) {
-            System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
-                    "\n\n*** Leyendo e imprimiendo archivo... ***\n");
-            try (BufferedReader br = new BufferedReader(new FileReader(ruta))) {
-                String linea;
-                while ((linea = br.readLine()) != null) {    // Leemos una línea y la guardamos en String (mientras no sea null)
-                    if (!linea.isEmpty()) {                  // Comprobamos que se han almacenado correctamente y que no esté vacío
-                        System.out.println(linea);
+        try {
+            if (directorio.isFile()) {
+                System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
+                        "\n\n*** Leyendo e imprimiendo archivo... ***\n");
+                try (BufferedReader br = new BufferedReader(new FileReader(ruta))) {
+                    String linea;
+                    while ((linea = br.readLine()) != null) {    // Leemos una línea y la guardamos en String (mientras no sea null)
+                        if (!linea.isEmpty()) {                  // Comprobamos que se han almacenado correctamente y que no esté vacío
+                            System.out.println(linea);
+                        }
                     }
+                } catch (IOException e) {
+                    System.out.println(e.getMessage());
                 }
-            } catch (IOException e) {
-                System.out.println(e.getMessage());
+            } else {
+                throw new RutaNoValidaException("Error: ruta no válida.");
             }
-        } else {
-            System.out.println("Ruta no válida.");
+        } catch (RutaNoValidaException e) {
+            System.out.println(e.getMessage());
         }
     }
 
@@ -160,21 +174,25 @@ public class Main {
         String ruta = sc.nextLine();
         File directorio = new File(ruta);
 
-        if (directorio.isFile() || directorio.isDirectory()) {
-            SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy (HH:mm:ss)");
-            String tipo = directorio.isDirectory() ? "Directorio" : "Archivo";
-            Registro registro = new Registro(directorio.getName(), tipo, fecha.format(directorio.lastModified()));
-            try {
-                FileOutputStream file = new FileOutputStream("registroSerializado.ser");
-                ObjectOutputStream out = new ObjectOutputStream(file);
-                out.writeObject(registro);
-                System.out.println("Se ha creado un archivo .ser con el objeto serializado.");
+        try {
+            if (directorio.isFile() || directorio.isDirectory()) {
+                SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy (HH:mm:ss)");
+                String tipo = directorio.isDirectory() ? "Directorio" : "Archivo";
+                Registro registro = new Registro(directorio.getName(), tipo, fecha.format(directorio.lastModified()));
+                try {
+                    FileOutputStream file = new FileOutputStream("output/registroSerializado.ser");
+                    ObjectOutputStream out = new ObjectOutputStream(file);
+                    out.writeObject(registro);
+                    System.out.println("Se ha creado un archivo .ser con el objeto serializado.");
 
-            } catch (IOException e) {
-                System.out.println(e.getMessage());
+                } catch (IOException e) {
+                    System.out.println(e.getMessage());
+                }
+            } else {
+                throw new RutaNoValidaException("Error: ruta no válida.");
             }
-        } else {
-            System.out.println("Ruta no válida.");
+        } catch (RutaNoValidaException e) {
+            System.out.println(e.getMessage());
         }
     }
 
@@ -185,18 +203,22 @@ public class Main {
         String ruta = sc.nextLine();
         File archivo = new File(ruta);
 
-        if (archivo.isFile()) {
-            try {
-                FileInputStream file = new FileInputStream(archivo);
-                ObjectInputStream in = new ObjectInputStream(file);
-                Registro registro = (Registro) in.readObject();
-                System.out.println("Se ha desserializado el registro:\n" + registro);
+        try {
+            if (archivo.isFile()) {
+                try {
+                    FileInputStream file = new FileInputStream(archivo);
+                    ObjectInputStream in = new ObjectInputStream(file);
+                    Registro registro = (Registro) in.readObject();
+                    System.out.println("Se ha desserializado el registro:\n" + registro);
 
-            } catch (IOException | ClassNotFoundException e) {
-                System.out.println(e.getMessage());
+                } catch (IOException | ClassNotFoundException e) {
+                    System.out.println(e.getMessage());
+                }
+            } else {
+                throw new RutaNoValidaException("Error: ruta no válida.");
             }
-        } else {
-            System.out.println("Ruta no válida.");
+        } catch (RutaNoValidaException e) {
+            System.out.println(e.getMessage());
         }
     }
 }

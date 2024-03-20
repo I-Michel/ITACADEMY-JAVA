@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-            iniciarPrograma();
+        iniciarPrograma();
 
     }
 
@@ -20,15 +20,19 @@ public class Main {
         System.out.println("Introduce la ruta del directorio que quieres ordenar:");
         File directorio = new File(sc.nextLine());
 
-        if (directorio.isDirectory()) {
-            System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
-                    "\n\n*****************************************************" +
-                    "\n*** Ordenando y generando arbol de directorios... ***" +
-                    "\n*****************************************************");
-            generarArbol(directorio);
-            System.out.println("\nARCHIVO .TXT CREADO CON ÉXITO.");
-        } else {
-            System.out.println("Ruta no válida.");
+        try {
+            if (directorio.isDirectory()) {
+                System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
+                        "\n\n*****************************************************" +
+                        "\n*** Ordenando y generando arbol de directorios... ***" +
+                        "\n*****************************************************");
+                generarArbol(directorio);
+                System.out.println("\nARCHIVO .TXT CREADO CON ÉXITO.");
+            } else {
+                throw new RutaNoValidaException("Error: ruta no válida.");
+            }
+        } catch (RutaNoValidaException e) {
+            System.out.println(e.getMessage());
         }
         sc.close();
     }
@@ -37,26 +41,32 @@ public class Main {
 
         File[] arbolDirectorios = directorio.listFiles();
         String resultado = "";
-        if (arbolDirectorios == null || arbolDirectorios.length == 0) {
-            resultado = ("   ** El directorio " + directorio.getName().toUpperCase() +
-                    " está vacío y no contiene ningún archivo o carpeta. **");
-            guardar(resultado);
-        } else {
-            Arrays.sort(arbolDirectorios);
-            SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-            for (int i = 0; i < arbolDirectorios.length; i++) {
-                File arbolDirectorio = arbolDirectorios[i];
-                if (arbolDirectorio.isDirectory()) {
-                    resultado = ("\n" + arbolDirectorio.getName().toUpperCase() + " (Directorio - Última fecha de modificación: " +
-                            fecha.format(arbolDirectorio.lastModified()) + ")");
-                    guardar(resultado);
-                    generarArbol(arbolDirectorio);
-                } else {
-                    resultado = ("   - " + arbolDirectorio.getName() + " (Archivo - Última fecha de modificación: " +
-                            fecha.format(arbolDirectorio.lastModified()) + ")");
-                    guardar(resultado);
+
+        try {
+            if (arbolDirectorios == null || arbolDirectorios.length == 0) {
+                throw new DirectorioVacioException("** El directorio " + directorio.getName().toUpperCase() +
+                        " está vacío y no contiene ningún archivo o carpeta. **");
+            } else {
+                Arrays.sort(arbolDirectorios);
+                SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+                for (int i = 0; i < arbolDirectorios.length; i++) {
+                    File arbolDirectorio = arbolDirectorios[i];
+                    if (arbolDirectorio.isDirectory()) {
+                        resultado = ("\n" + arbolDirectorio.getName().toUpperCase() + " (Directorio - Última fecha de modificación: " +
+                                fecha.format(arbolDirectorio.lastModified()) + ")");
+                        guardar(resultado);
+                        generarArbol(arbolDirectorio);
+                    } else {
+                        resultado = ("   - " + arbolDirectorio.getName() + " (Archivo - Última fecha de modificación: " +
+                                fecha.format(arbolDirectorio.lastModified()) + ")");
+                        guardar(resultado);
+                    }
                 }
             }
+        } catch (DirectorioVacioException e) {
+            System.out.println(e.getMessage());
+            resultado = e.getMessage();
+            guardar(resultado);
         }
     }
 

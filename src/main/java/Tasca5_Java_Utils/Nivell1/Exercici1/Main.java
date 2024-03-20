@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-            iniciarPrograma();
+        iniciarPrograma();
     }
 
     public static void iniciarPrograma() {
@@ -16,14 +16,18 @@ public class Main {
         System.out.println("Introduce la ruta del directorio que quieres ordenar:");
         File directorio = new File(sc.nextLine());
 
-        if (directorio.isDirectory()) {
-            System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
-                    "\n\n*******************************" +
-                    "\n*** Ordenando directorio... ***" +
-                    "\n*******************************\n");
-            ordenarDirectorio(directorio);
-        } else {
-            System.out.println("Ruta no válida.");
+        try {
+            if (directorio.isDirectory()) {
+                System.out.println("Ruta válida: " + directorio.getAbsolutePath() +
+                        "\n\n*******************************" +
+                        "\n*** Ordenando directorio... ***" +
+                        "\n*******************************\n");
+                ordenarDirectorio(directorio);
+            } else {
+                throw new RutaNoValidaException("Error: ruta no válida.");
+            }
+        } catch (RutaNoValidaException e) {
+            System.out.println(e.getMessage());
         }
 
         sc.close();
