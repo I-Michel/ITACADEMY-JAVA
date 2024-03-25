@@ -1,5 +1,6 @@
 package Tasca4_Testing.Nivell1.Exercici1;
 
+import Sprint1.Tasca4_Testing.Nivell1.Exercici1.Mes;
 import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;

@@ -1,17 +1,10 @@
 package Tasca4_Testing.Nivell1.Exercici2;
 
+import Sprint1.Tasca4_Testing.Nivell1.Exercici2.CalculoDNI;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.junit.jupiter.params.provider.ValueSource;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Validate;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CalculoDNITest {
 

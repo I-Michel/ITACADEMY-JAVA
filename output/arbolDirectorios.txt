@@ -1,1772 +1,294 @@
 
-.GIT (Directorio - Última fecha de modificación: 20/03/2024 18:45:22)
-   - COMMIT_EDITMSG (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - config (Archivo - Última fecha de modificación: 09/03/2024 18:42:30)
-   - description (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - HEAD (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-
-HOOKS (Directorio - Última fecha de modificación: 09/03/2024 17:15:19)
-   - applypatch-msg.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - commit-msg.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - fsmonitor-watchman.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - post-update.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - pre-applypatch.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - pre-commit.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - pre-merge-commit.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - pre-push.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - pre-rebase.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - pre-receive.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - prepare-commit-msg.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - push-to-checkout.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - sendemail-validate.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - update.sample (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-   - index (Archivo - Última fecha de modificación: 20/03/2024 18:45:22)
-
-INFO (Directorio - Última fecha de modificación: 09/03/2024 17:15:19)
-   - exclude (Archivo - Última fecha de modificación: 09/03/2024 17:15:19)
-
-LOGS (Directorio - Última fecha de modificación: 09/03/2024 17:22:46)
-   - HEAD (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-REFS (Directorio - Última fecha de modificación: 09/03/2024 18:46:30)
-
-HEADS (Directorio - Última fecha de modificación: 09/03/2024 17:22:46)
-   - master (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-REMOTES (Directorio - Última fecha de modificación: 09/03/2024 18:46:30)
-
-ORIGIN (Directorio - Última fecha de modificación: 09/03/2024 18:46:30)
-   - master (Archivo - Última fecha de modificación: 19/03/2024 13:23:45)
-
-OBJECTS (Directorio - Última fecha de modificación: 19/03/2024 13:53:13)
-
-01 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 2a474567d058fc94d52b90daf3375a09b087d4 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - e7980e7e4641523716f4c9a280fc05314811ac (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-02 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 5d3932a2b458319685b3ff3b5a3e4ac472404b (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - c23efdfc398f23aa5a523f4c787b455296f9a5 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-03 (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - ac28486b65a67fe378d496f78495a68e0a8ca9 (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - b945052f7c8258170b4c4e52c1bab02b478b6a (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - ff514afbb3320df354cf7296312821fb04b294 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-04 (Directorio - Última fecha de modificación: 13/03/2024 22:02:34)
-   - 619f3ddbc6c47d07b6189f228bf8fde0faaa8f (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 81c9009ed0e7850392b8515a582365ce29dee3 (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-   - d67636b6dd0530b2eccef3a94333be4941c2f4 (Archivo - Última fecha de modificación: 13/03/2024 22:02:34)
-   - ff8330c7dd29423a1a6c71fb9fa447400a95f7 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-
-05 (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 6d411089e58ea3a1ba7feebcad0b7eb217ca3d (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - ebba924e113a6984620ef0e2134d2833a0bed3 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-
-06 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 731f4a67fcd527f93cc8c8c35aa5d57b7c8181 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 7509809d74ee40a4235ec0ff00f672e43df5b1 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-07 (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 2ca80c2bded7ec1557ea1f51b35c6a27225714 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 2cb4e34a89f6301baee6919ce67238f81257e3 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 6a228efdfaba861da6b59ade3e68e716e08974 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-
-08 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 483dd283d1c35e37421d3725e14de932ed3956 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-09 (Directorio - Última fecha de modificación: 11/03/2024 10:50:49)
-   - ad9e30b3532f4364d092d2bd4cb92148bae11e (Archivo - Última fecha de modificación: 11/03/2024 10:50:49)
-
-0A (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - e99ee10cb3771e5dde3fa022a3cdffec06f1ef (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-0C (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - a566b9333c60110b1e54102762a68dbf4f31b0 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-0D (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 5c2d133ce268b052b2e81e037cd985c7e4a169 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-0E (Directorio - Última fecha de modificación: 09/03/2024 21:21:56)
-   - 1cb21d3bb4ff11d0a9be207f57178bbdd5ad7a (Archivo - Última fecha de modificación: 09/03/2024 21:21:56)
-   - 943de4abbf1621bc9e910a9528ed488145de47 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 9c9d7790fd1abbde0a2639367e90b17fc67e38 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-0F (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 92ab5336735bed995be2f05c110f842624f277 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-10 (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 1df38ff8ebc2c87c5e97b2b5da959c2da3d3d5 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 3a81628a7551551db1dd38ad63c725ed74247d (Archivo - Última fecha de modificación: 13/03/2024 12:47:16)
-
-11 (Directorio - Última fecha de modificación: 19/03/2024 13:13:29)
-   - 884e7065325779c74b7a4fca3ebf8e58b5eef7 (Archivo - Última fecha de modificación: 16/03/2024 16:57:07)
-   - ecf5d14fbc294fa004f5e8b768828aac0eae9c (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - fd3bc85df47d0b7fe68de00c579f67fb471f5f (Archivo - Última fecha de modificación: 19/03/2024 13:13:29)
-
-12 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 4de5eae4dde7bd58119d20136385e2e7f8dbc0 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-13 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 44ed3fc90a8539284b2323c7c52ad513f1e65f (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 7fcb791a04a4263098bcff9650cedb410c83de (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - f0a996ff602ab223e1bb74f85a42224077078b (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-14 (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 42bec68b8e3569954707da1bbf8989c2a255c0 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 6609c768b61fa0c41c8ae7dffa911b276d96e6 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 7410b66e92b7e527d79e0fa759356f505b90d7 (Archivo - Última fecha de modificación: 14/03/2024 10:44:32)
-   - e97b5910de0c0a9b00bf4b1914ac3691dfa060 (Archivo - Última fecha de modificación: 14/03/2024 10:38:53)
-
-15 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 0f04c3acb2efa25917ab3fbc990700361a606f (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 53191ee70bea7f11a08428c5f5456fe3b23ff5 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - aba4e68162df86f8c20d14f740292c10e5e3d7 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - d0765c121fdf658cda3015c5b77acf82a36d00 (Archivo - Última fecha de modificación: 13/03/2024 21:25:29)
-
-16 (Directorio - Última fecha de modificación: 14/03/2024 10:30:02)
-   - 2f8a8aa98a66867353de42f8a9a69206996c86 (Archivo - Última fecha de modificación: 14/03/2024 10:30:02)
-   - d1114ac1d02eeb37a2058ede94c66559d2d38e (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-17 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 8dc86e8d65f50005def11a9944a15f5dc83b95 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-18 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 07c2fb476f8878b615b2fd313c7e625a7b0d8c (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - 31f7e8afdbc935518f3b0cc5a50c4610b8a927 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 80166bf919a6a03480c27a2f7ca0fb939b1672 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - ed30f64ed5b4a8c07347ebb0d1abd21e353168 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-19 (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 05b6696d12c504345b35826520bd734015204c (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 0c6252307207e30db2563452c7044dc4e212fb (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 68f36bf24ae09fdde194fe504f4e8ca1886faf (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 7d90d1d1ebcb4465e412ba9bc9ed7c3341086a (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-1A (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - b681f39964de240cf89e47c757c062791151ca (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-1B (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 331442204bac931a5601598da8a4e90800f936 (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-   - c24a51b248fab4faca64ddd480d870a5e608b0 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - dfe4222594401db51a7fea04403bf99d090a42 (Archivo - Última fecha de modificación: 11/03/2024 13:21:11)
-
-1C (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 0746d8a8e26258ad2ee19a4670acc602801038 (Archivo - Última fecha de modificación: 10/03/2024 19:58:54)
-   - 566e087204e47e3de76aed7b6089c8c334114e (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - fe119c0b6a70da24c5b23b56d9fa2f1cfa7b38 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-1D (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 00878b2b7b74a099d84dbb2717b7156def4a80 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 3276e325797a2a14c259804c1fc0cf9186ccf8 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 74eaa0fc5b5d75b47bd14e8bb20002bbb6d34d (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - b71feb49390f5fe467c89ae136303c704e7a86 (Archivo - Última fecha de modificación: 14/03/2024 12:21:50)
-   - cce8f7a2307c8612f039eb79a5fd914c2da1af (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-1E (Directorio - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 7a5a1ebbb9eef9d8e432b100acba4ec8f0ed8f (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - 9c3456473a1d5c8707f35e5e0ae3f411b47eba (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-   - c29a31d12a32c2046192d2d7433f238d30ac4a (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-1F (Directorio - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 7f5b4dad64106e0cbcbc6bd8d36d20f41375e9 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - c15edec1d1ba29e17d7f67168dcc0f8e9ad4c0 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-21 (Directorio - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 506e4567d07a84e505aa0eec3fd4481d389837 (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 74144dd5530475e00b3e27377caf921d781d05 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-22 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - e915f64436793a333105ad51f40aab180a5464 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - f0730e75c12e299f6295654c3be2210a29bd9b (Archivo - Última fecha de modificación: 14/03/2024 10:58:39)
-
-23 (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 126f323883fd6c66d5b17551be139e8668a013 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 32e416354a6b19c06dfaf93ee5336854b8a288 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 79b37860cadcffc5f5ef48c1d039ee25eba70d (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-24 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 2cee25233e70edb38c3df561075f069ab9a692 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 8c5601836a5f4d178905c8db0f6affbafabd6c (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-25 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 43c4853f1b111b78e21372a5dac14532ab81ad (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 7caca2c46e6ad8298ec59b0e40299f4b09ce4b (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-26 (Directorio - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 25a4177694c2f211259c2d9074304516964e58 (Archivo - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 382f58afc25bf82a06f81d9ea678a73b6f7d19 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - d33521af10bcc7fd8cea344038eaaeb78d0ef5 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-27 (Directorio - Última fecha de modificación: 19/03/2024 13:50:15)
-   - 1a2f838eece314327c32c57af6e010ead326c7 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 73991f48fde7cb1802a8032b3442da54ce56bb (Archivo - Última fecha de modificación: 19/03/2024 13:50:15)
-   - ce94c119072f049177863f1e1e887de4b200f4 (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-
-28 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - d0979582e76b44621e09635ade16f462b7693f (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - d3af96d838127cae5097bd89997ab1afc9cc21 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-29 (Directorio - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 55789f04a828ed10977038cb74e5cfc9ecab12 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-2A (Directorio - Última fecha de modificación: 14/03/2024 20:33:27)
-   - 274ba92a3072c058441df7027754ded6ad9122 (Archivo - Última fecha de modificación: 14/03/2024 20:33:27)
-   - 816661437c7b4f1c9b98ef4781795ed9c6923f (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-2B (Directorio - Última fecha de modificación: 19/03/2024 13:29:45)
-   - 484ad8589e05e2e7cbcb967e8fb0c239413adc (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 63946d5b31084bbb7dda418ceb3d75eb686373 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 8d8bfa72242e979c01d64490e9b4564e58e76f (Archivo - Última fecha de modificación: 19/03/2024 13:29:45)
-   - deaaeafdb390dcc7aca4c538decf5f1ed1a839 (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-   - f19a6ef43105fa6c60bba419df0b28abe4bae1 (Archivo - Última fecha de modificación: 14/03/2024 10:26:28)
-
-2C (Directorio - Última fecha de modificación: 13/03/2024 12:47:54)
-   - 12d81f630f60ec7b562f3af9467a56d4c5c6ad (Archivo - Última fecha de modificación: 13/03/2024 12:47:54)
-   - 270c50dc050375892ac673c10217ae09600ff9 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - 28a62e2af3078efcd351eae98b1cb846f60883 (Archivo - Última fecha de modificación: 11/03/2024 13:42:20)
-   - 6f60394697c664c0800463670f77a6a6c7ba40 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 79d5763752dfbf99ecf0bf62f42c0f136ff102 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 9d88e6c75bbb1915d4cf888b6c1c1328b289dd (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - a73cbd4f7deb6630f89e097365cad2879a5d1b (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-2E (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 2f4249fea344bf3aa092d96c974082c9b532e7 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-2F (Directorio - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 7d4345fc94887f0f8835da7264cc965b5ad89c (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-
-30 (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 50f3d0a25c8d4ab95811f5cd56168327be1bcf (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 7d5b587e6b2fad43e1f031846a60816d65468e (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - ab2881b7e42ed323a32a47e86b0b4985bf3f6e (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - cfad6a6dff4353e9f13da1e9977617cd0ca8cb (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-31 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 3bc6c87184a90a3cf5d13b3ec56760142bb65e (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - d9ec7cab2f79e06a445ac333f0372cf069dfd7 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-32 (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 2e3df61109457a8f4a43a0d79b945e5f55f805 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - a243907c9aba613910046c0e3c2e6bc230393c (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - d626c23e5e4037e9e9543fbafe4497e8c386ac (Archivo - Última fecha de modificación: 14/03/2024 10:26:53)
-   - fb9752b3f9e79555690387697fa5519981efb5 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-33 (Directorio - Última fecha de modificación: 14/03/2024 13:30:20)
-   - 054cc7c134a6c110e43503befaa67377b06504 (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-
-35 (Directorio - Última fecha de modificación: 19/03/2024 13:53:13)
-   - 0a470ed8c0c60e347d3c6dd1b300256ced2838 (Archivo - Última fecha de modificación: 19/03/2024 13:53:13)
-
-36 (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 945ff9738f4e81272b886984c8e8246d74055a (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - a6210b5afea6dc842493bd4383f5c559f23dcc (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - c3fb367edfe750dbe93dfa8284ac191c89e67e (Archivo - Última fecha de modificación: 09/03/2024 17:22:46)
-   - e0b7e451aefbc470a6c63adcfcd0dae4b9db6c (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-37 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 3cb0d6197413bc500cab1ec966bd3745063b94 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 8a793d01b147ad30f9977dabaf1d72ea37b5c3 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-38 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 678c6ed028d68635a53929490c9f7a5a8ac256 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-39 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 2aa3f186e067f7e985bf1e0a3d29783bc5c389 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-3A (Directorio - Última fecha de modificación: 14/03/2024 10:39:34)
-   - 51e3e8a81b2b5a27717c0a14daa46d1066cdb6 (Archivo - Última fecha de modificación: 14/03/2024 20:27:22)
-   - 5bcc1c25d6d0453a74b651555dc9a7d1c6e014 (Archivo - Última fecha de modificación: 14/03/2024 10:39:34)
-   - 7fa31a5541dbb979ac7633f3829f009ffc60c6 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-3D (Directorio - Última fecha de modificación: 14/03/2024 20:33:43)
-   - 04e52381cf37bc2c6318c23228d25ad785332a (Archivo - Última fecha de modificación: 14/03/2024 20:33:43)
-
-3E (Directorio - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 7a35287cd51554ef3377f704f02e633b7392d0 (Archivo - Última fecha de modificación: 16/03/2024 16:57:07)
-   - c5d9cc6822e04c3586999cc78b55a33a4feed2 (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-
-3F (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 538298e479c3486ff1b8ebc8a61787d26b49e4 (Archivo - Última fecha de modificación: 14/03/2024 10:39:47)
-   - 7cdef1a88255aeddda2b25bef0e1b9c590303d (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 83ded927542a12605b8c913957193c1d424c15 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-41 (Directorio - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 0bded3cb241268733265764e09a274345193b6 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 28ae33b9250c309ec239bdb71739837f5eae41 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 54daa190beb15c6098cbbd84c1d913475fa34b (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - e0b098676d3d49e9e2173c8fefdf8136053995 (Archivo - Última fecha de modificación: 16/03/2024 16:57:07)
-
-42 (Directorio - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 17cae89a450d2c5f070372b3339bc495858815 (Archivo - Última fecha de modificación: 11/03/2024 13:41:07)
-   - 9aa9a7c98817cdf733075d7d8ad3760daeb0d5 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - 9ed0f2ea229dc0c64c89eee46170f8a5cc30b3 (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-   - d21f42b810d4c19245c0ae4852104b1ffa622a (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-43 (Directorio - Última fecha de modificación: 14/03/2024 10:44:15)
-   - 28a95f05a547b4b7e3ef6c319a8d17911d3c0c (Archivo - Última fecha de modificación: 14/03/2024 10:44:15)
-
-44 (Directorio - Última fecha de modificación: 20/03/2024 18:25:23)
-   - 6b625f439956f7bc69f340384ca87899315812 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - cb0df2af64a07159dbd5ace60f907f1525919d (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - ced9d9fa50295e914c25a2d2d580aa1f1072db (Archivo - Última fecha de modificación: 20/03/2024 18:25:23)
-   - edcf80ed42575598cbcf1123dd548f83d369ca (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - f9c1847708ee43d862d263984dcbce70c7e1a0 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-46 (Directorio - Última fecha de modificación: 19/03/2024 13:13:23)
-   - 006210e3f176c52b15405ab1af9ae349cd1675 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 37f69a8c8705d9ae6aad00e969b5f7ff92e427 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - c82dc0a6ff238c92f981b51c2e8ec62c336bee (Archivo - Última fecha de modificación: 19/03/2024 13:13:23)
-
-47 (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 9228a98d587bd3e440f95960fb38ddfe0c2255 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - adb45f294e991077664df914e8ef0e4b34999b (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - d0d329b3a31986e2b9226f8a08c79345485532 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - ef53588b020b676e9f5e38cf53605aae13543b (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - f64a8e1e70617db9d67ec1d186e7a393199a69 (Archivo - Última fecha de modificación: 09/03/2024 17:22:46)
-
-48 (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 17b59c9d758be24b5819c0429e756f1760962c (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 6229490bd64c8eba3638597153ce0e8de8ab80 (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 8b0a30818cd96e1f020af4ba26f6d42d09bcf3 (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-   - a518cfbcfa68809af00d1e3ba7b845b109be8c (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - ab2842eafa54709a28af98f4f6855b265c15e0 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-49 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 0097066dbe3035025f279d292b258ca2ba9b52 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 1181c5a7eccb2a313d67258edd00cda27dff54 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-4A (Directorio - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 80dc0e9c2afea2d9b9afe4dd4d041458103549 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-4C (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 28dc113e4b883a70891831826967b6d154c5dd (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - e2217c074e13e6f98557d3d81012002df00c62 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - fb03a737244b89f560d3ed10dd8671032a05df (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-
-4D (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 993c78a74cffbb5bfe1094f1e9dc17883ed113 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - dc214abd056369631c680fa7ecbee2e4cabc9b (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-4E (Directorio - Última fecha de modificación: 19/03/2024 13:13:05)
-   - d929f7a1102a53f4b616a8484ece89bfe63f5b (Archivo - Última fecha de modificación: 19/03/2024 13:13:05)
-
-4F (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - b20cd0c49efb1b1ffd5199ef13df0e475a9371 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-51 (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 26ca611267f015f97b3d40fd5b0c222b55bcfb (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-53 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 0ad20dd36496fc75b99b9b324c42d4fd564a2d (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 6545322d467ea0950081159473d8b48594ad57 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-54 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - f9c83e93421bc71f736b5f7a08be3bc6db1212 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-55 (Directorio - Última fecha de modificación: 14/03/2024 20:33:36)
-   - 5ff6e46063d7f1223fcc51a997c30f4c997a29 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - cbe73a1d759ba0d44ac0fe64428a4fb5491a62 (Archivo - Última fecha de modificación: 14/03/2024 20:33:36)
-   - cca1b754629b8a8ff9bb9f5e162d7daa1ca5c5 (Archivo - Última fecha de modificación: 10/03/2024 20:08:40)
-
-56 (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 25794d5fc281e6808d1755e0f40c0c9482748c (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - f8274906dc0624c0cbbffb71591af8c0fc365c (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-57 (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 189328e94d87b2b1350b83404457224846aa47 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 3e91e2555c3e85f73a1e9cc6a94c0dbadd9afb (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 8ad20edd74838cb80fefd0bc480667f95546ba (Archivo - Última fecha de modificación: 14/03/2024 10:57:32)
-   - c1f46dda47cfe054d681eefc50d4dc6995067e (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-58 (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 37c3c2f0a729aea4af0e404ea2bce031fc7afe (Archivo - Última fecha de modificación: 11/03/2024 12:15:07)
-   - 9ed2795fd7253d47e7d452f591a4b2419b8f96 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - b24833191ec6a8b10cf331a3f76d3b01c6ab5c (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-59 (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 0a6e73f44deac8bbc4b306233c56da9fd70a65 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 3711c050f4c54d977c85156c46b2cd4b1acc13 (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 9ec9a5cf390d74d02437998ddfaab2557f313b (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - c3249ad05500f6d11ced289b91c88a96f6f008 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - fdb720b4bc1f8f4b3875f52183c5c2e2750916 (Archivo - Última fecha de modificación: 13/03/2024 23:29:08)
-
-5A (Directorio - Última fecha de modificación: 14/03/2024 11:37:44)
-   - 12fec5ff839f2f93851428d6ad03a5cd167886 (Archivo - Última fecha de modificación: 14/03/2024 11:37:44)
-   - 6f06f609bc868317ea32590fb0c65bf4dd5323 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 9f3459c23d30e5eec22e466a0470320a1d1bbb (Archivo - Última fecha de modificación: 11/03/2024 12:27:24)
-
-5B (Directorio - Última fecha de modificación: 11/03/2024 13:34:09)
-   - 5891d5d10f170c852ac4e0140acc08c605e000 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 8e78058e63ca0070c73b9bf6759eb29d73e1a8 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - a7af3576fc1d57a16b13918908868965c449ec (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - dfb05fd9ecf733ee063297cfa6c5c2e1396a1e (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-5D (Directorio - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 0fd657bc2756aabe721bfc836ac1c3e2f5f1fb (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 6b03c520937fb481c59ffb52fd2c08053ddcae (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 8f0910f042024209c5d697975ac589fbe67f73 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - b568a8e42a85d4f9bab9489bccf0e15184699e (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - d844a0f5e4a3b5050e43c364eb9d3c60de8211 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - f50b1ed6bc860f1353cb6fafd01c66ed6a91fc (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-5E (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 30ab3471c8e9804a4ce5253fcb181f127bcbe1 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - fe2d1e6c89e63b3b74e0e81b9e4206f4accb66 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-5F (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 81610983849b58f39e03b1d8478f78884a8f6f (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - f6309b7199129c1afe4f4ec1906e640bec48c6 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-60 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 65f7e46ec0b08e1b3c4cebddbe77ea0d14ccfe (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - b96ee088e8ded00f49d794f30587067b3cb32a (Archivo - Última fecha de modificación: 11/03/2024 11:13:18)
-   - bbf09461828a711c0e1ca82121b03e6f85e507 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - f117388f56a97ed0ad87e1cdf8d41c9f1a5af1 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-62 (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - d1c3ea083d952d13fd173c2b05910b879466ae (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-63 (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 0a8ece4b41e4b11ae15694d34cfbb4d8b5e375 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-66 (Directorio - Última fecha de modificación: 14/03/2024 11:18:32)
-   - 2957e14a2c64fc4e7b944e92157d03a19c48fa (Archivo - Última fecha de modificación: 14/03/2024 13:37:08)
-   - 42035bb61a827c62fc36dab7d7e13a32693c95 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - f3f8ba142b2e0cc2392c43b1819ed018c0c5fb (Archivo - Última fecha de modificación: 09/03/2024 21:21:56)
-
-67 (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 507afb106bafd96f4c7dec3c6469d1bc6acc32 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 77d74d9a93953218cbd1a2b5a9a8abf877d3dd (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 7ef4cd52228ec7fe7af69752706eb73644d290 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-68 (Directorio - Última fecha de modificación: 14/03/2024 10:59:53)
-   - b6ad64bb5272184f8924d4d9b5521256c863f4 (Archivo - Última fecha de modificación: 14/03/2024 10:59:53)
-
-69 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 5a79f5db4a73161076ef553adac062b401a0ad (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 9452d21c82f7031a2b48bd938792b76b691d8d (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - aba13fc7cee853abb1edd9c42aa24232abe444 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-6A (Directorio - Última fecha de modificación: 14/03/2024 12:20:16)
-   - 58b07b1fe39cb2ae7e9d12a49e01b73adb39a6 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 6dd8bb14217df49e5b00d5ae0d5e6e50b44adc (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-
-6B (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 1ef1ba83725f06a8cdd694c108323c0b77a769 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 4567f8ac52bea04f40fb926a0b39ee74f0aefe (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 5bc92c30be1a2e7cc0b45ac3b476b35275cbcd (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-6C (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 773b8b1f5a7590bda3208a0a6028350a7116ab (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 91a5a658057e499ec5a335a30fe7794e6c2a59 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - f850d104ff0347794f5b49b8b24111666721b7 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - fa9851391df57cbb3db5f327a1d75cc4b748b4 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-6D (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 5ec5aa42600a95e1847c858c103632de5bfe01 (Archivo - Última fecha de modificación: 14/03/2024 10:45:17)
-   - ecdcb2b44862769ebf7b868f4843b18515a0ec (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-6E (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 17d7595ab669ce7bf49016ca55526a12b734d0 (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-6F (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 393f7005fb57708412fdd1a098f61b6fe76148 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 86fa1c2d11cf705d6046be4d2237fa6e414b06 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - e56dace77ad67f1cd92e8de06cb89247d98d62 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-70 (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 2a21313fcd86ed9a35b389ca6bf766c525d82f (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-71 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 03518b57b10e83b15d8731aab5619b90d9578b (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-72 (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 2100ac0bb6d78642a3f7ff56a4872c8846b7e5 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - eb7ccefb336d258e2a38df71726a573ebc829b (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - fc2f656c64d47c4eacb5bb4040ce5a4912f1b9 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-73 (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 03680e44fe58a43ddae93d7d4405ad938ae671 (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 3317b57255dbac845f660b5721565884880817 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-74 (Directorio - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 09e1be8b1fe26b2323411e0dabd589d2c7a831 (Archivo - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 9c10c76d668cb8ae4f6729a499e7bde47a0fd0 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - e237aaf8a82f5076d81289f025766be5539cf8 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-75 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 7fee9808ae1ceaaa3083de920817323c0e24e2 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - f30b3a952965541854982512115082548c26ab (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - faee0e4dcfe6fd40a393012dcd039027bd79f1 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-76 (Directorio - Última fecha de modificación: 14/03/2024 13:30:20)
-   - 218308f3c27296e055491340b3cadd13ca9a3b (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-   - 239e7f8a820b294da59be875e5a845260d8720 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 9b15ec780f79541d23b333e1add3fb3ace14f8 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - dee1bf76cbe1ea941c18bb3169dde5a5784d6a (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-77 (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 72579d363d39f8bcf898da821d976580af3c47 (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-   - c5ad6a468a9868974e76a9981a0c4789c5bb6f (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-
-78 (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - ac0e6805a7387b4f3b96007fe5872c0559bb00 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-
-79 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 1ae9b66e0568cadf218eaf09212c22018ff15b (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 6183c6130671d7dc2cf0371e88408b37e626d4 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - e79e501a6bc5545083b9e2d824f0338458975a (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-7A (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 97409c7a0278b314eaad8e4da795cd9bba3357 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - f15dcbd1019c0c97e833fa83af368b2fca8fcc (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-7B (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 2fa3e8e6fd68d61104464a33a3a2c3f6453c8b (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 8e913cdf842f0e561020be2c4501847f832d1b (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-7C (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 1a00be402ac3398e63b025935931a7e25694ce (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 7741b5df2298068b07aafcdfeb8fa568d09990 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-7D (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 21e21a984660054118a09707b1f94793eecce0 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - fad69b7dbdf3e16556d3ffb5c1427570cda04d (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-7F (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - c800cc94fa04435c7446f4f5c0af9053cc09fa (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - e2fd06e46688056ad8516ce8259da0f4d07456 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - e860676dfc46a2d99266cf882daaa1c2bf2b59 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-80 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - a879089e79d3015a443b5cbe71fb7a8586e886 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-81 (Directorio - Última fecha de modificación: 19/03/2024 13:13:15)
-   - 150bb9fb9f2c98c77c0235d4c5636ebfb957bf (Archivo - Última fecha de modificación: 19/03/2024 13:13:15)
-
-83 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 5e925911f7404af6cde939e94548648fe6a006 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 6d9c6b2b1a6fab53cf6eb346ed2ad82dc7cc74 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-84 (Directorio - Última fecha de modificación: 14/03/2024 13:30:20)
-   - 17095093c77c61ecb7ddc86820e8a76f2e3324 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 7fe7d83eafd6a4e25168f5dc80bc6676ffee44 (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-
-85 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 092eb95ee247040ad9fd06bbaa447883d5c672 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 12ca129bf2d4f95410a7bf825ecf97ecefdbbb (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-86 (Directorio - Última fecha de modificación: 11/03/2024 10:53:35)
-   - 9f4dd9f8bb0ab3f1491eba455c4e50d2fa1476 (Archivo - Última fecha de modificación: 11/03/2024 10:53:35)
-
-87 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 708666a7e541973b72d35477caefbc7302a966 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 88fe5146fca6fb38b146c7535b5279ae57adc2 (Archivo - Última fecha de modificación: 14/03/2024 10:57:59)
-   - c316099baa43a4bdcb6f93fab5399dd07eb891 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-88 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 21988c88b2f3b0e458ea29535d73dfbc3b0603 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 946e41dd206e9ed2f1ad9255915db34bffb673 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-89 (Directorio - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 7466a8e19d906aca9b6ea305ed51e0cefe267f (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 9921a6bc462e7fa8e3e8f0040cf75b66bd5864 (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-
-8A (Directorio - Última fecha de modificación: 14/03/2024 13:30:20)
-   - ccb86a3a312d3c8a50a172f4a9d77d61fab559 (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-   - dd16e31cdcfb665da398a36639a3a8323cc153 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - e7a64267eb333a900c78b11d900fbc0836c902 (Archivo - Última fecha de modificación: 14/03/2024 10:59:57)
-
-8C (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 277df32e0df06dd09e3c2d05930c4976ade7b4 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - cac5e71f9cdfce4694656baa38bd387daa3b0d (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - e1afb31a1e43ae80ec9eba4a97dfd5d748c3af (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - fc4656f1ea2d85a06acd06ad924671b2aec66a (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-8D (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - a6e00ae3447b882e6acd178c34972670635d03 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-8E (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 1def365b0dffddb417ee6567f51c2673faa6ce (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 4e543c46f73a8560d0c3cb3cbf7b9e2b34bcec (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 8922139215b11961cc71cdaa7443285ea90502 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - aee7c78d530347d7e73a9e4c70d66293bad9a2 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-8F (Directorio - Última fecha de modificación: 14/03/2024 10:39:15)
-   - 6640e8c0d4cc38bc36f3d2fba0e044d9a819b7 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 9122b1e8c7078bb2442b12ac7a58250fa53699 (Archivo - Última fecha de modificación: 14/03/2024 10:39:15)
-
-90 (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 5c08a7b277958f383b88b1d29ee064abb8e944 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-91 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 0db5dba658f33cd6eff8467be0578f56e86287 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 0ed5c137c6ecc16e937e7609fa197c5d61cc5b (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-92 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 6bb14d36cb44ce430f2729ebc1ae359fbea61b (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 7f4af2cc11e45661086f44435d26cce2b6c8c1 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 960377c8644cc91f92b1de34ebab110af1f84f (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 98ea7169bac63064002d6ec47af0148eb6644e (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-93 (Directorio - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 354fae6814b05c36745fa1d4b9a01393eba01a (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 6cb30daa32c9d3bc45c05f37f38e3efee8602f (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-94 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 45d5154f5b0c94627df196217ec603d56dae5a (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - d611f02f16ddf737d52e7676c9d4c4aaf079d0 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-95 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 5a3913ae667f9eec161d4730800e831b3dd59c (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - a670adcf7d04ea4d48adb0c871bfcda7acdbe9 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - eee8d759d584eab54ae8c10fa800ab98c1487a (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-96 (Directorio - Última fecha de modificación: 09/03/2024 21:21:56)
-   - 61ac713428efbad557d3ba3a62216b5bb7d226 (Archivo - Última fecha de modificación: 09/03/2024 21:21:56)
-
-97 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 9ed82e0871d9617930d337f312f0afa78fcda6 (Archivo - Última fecha de modificación: 14/03/2024 10:59:20)
-   - c172cbff49737eb36a029571f0f97a0fba8036 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - d0c34213c83b5a708cb181fe27037d02e0e9a5 (Archivo - Última fecha de modificación: 14/03/2024 13:44:25)
-
-98 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 8a726c41c536fe9e5c0c4b31a1b5fcdde089d1 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-99 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 09b2ef0f495de6008c60b9cff10318c7327ffe (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 0ba8f898cd86bda4abf0e56a830f74ecf3b987 (Archivo - Última fecha de modificación: 09/03/2024 21:21:56)
-   - b7cfe3e24778ec0165466af73e17544b126973 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - ea62d934e3b5cb9ce7ece13de78e5442d32022 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-9A (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 9052a48f1e671c5f5491c8396a3080a4bc15bc (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - be4d80811fcc9cd27107636ea00566544363d1 (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-   - c5197829282692e22ff762592592701d7e0f7f (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-9B (Directorio - Última fecha de modificación: 09/03/2024 17:35:16)
-   - ce252123f050d6b2ecf71a222e56f4b9191ec8 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-9C (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 0e280282e11a3ee6fd2768e0c0a367c3c8d493 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 6802d16085e5adea729122bd908792f933a22b (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 77c1f1e45cbd2c014f6feafa387e499e7c52f9 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-9D (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 5efbdc416f6637aca518868c5f358a6a8515bb (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - e17473ebc5456590bb3c97f457f9518cf40be8 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-9E (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 0d0cfa26342fe632158cc5a256e0dc5298a546 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 70cbfe6d9cb3e839a91bb5bd2029c77b60ed18 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-9F (Directorio - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 352c53c846a75c870d0f07c7b281abd255d6e3 (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-   - c1d1e21aaeebf98ea8781381ae4b58cf4da609 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-A0 (Directorio - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 25ba00c8f33f718d1c2157e8935a05aa2dddf0 (Archivo - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 797d0d3f0c9557a05c211c3aaa33b28155143e (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 87323b9d2d7ca1a4b73a3df3ee734b0cfb4314 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-A1 (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 60fa032806ca54e6ddf6c32ffa99903400c6a0 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - a2229a0ba87b66d31206b4e9a539d60bc4c107 (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - d6fc9a6dee8928e5a120fc5f8f6aeba7f90d86 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-A2 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 7aee702e745d243afae4ba460b74e0bc27c1fe (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 9f4b28cdd0cdcb5e9f9100b944f3ea48e62230 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-A3 (Directorio - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 1c68029a182a70f601d64bd23d5dc8cf13a875 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-A4 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 0562aebbe137bd5ce138886fd46e4134ba8206 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 6fb442893c07caef178cb00f85f31cfdd62807 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-A5 (Directorio - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 7bfc0d6851a361bb19d32a50ad671db2d41df6 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-A6 (Directorio - Última fecha de modificación: 14/03/2024 11:38:47)
-   - 0d120c906ecb8e4f4860ced7e7958dc2fae810 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 4c2c3da45ef4b2b405d518a4f6cb74628a54e2 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 8f0ee6d92adff7a4d96d4d70680a422a418fbc (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - c60299f020e0627a77415ac31211bb250a3e13 (Archivo - Última fecha de modificación: 14/03/2024 11:39:52)
-
-A7 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 231dcd342b5143a033f1591e80e2743a78631d (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 6cc43ec1c605b976c8ccd175d8cacf30ac3457 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - d61dfa069dd9daeeb18bf88c59dfcb35e69922 (Archivo - Última fecha de modificación: 14/03/2024 10:44:49)
-
-A8 (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - c23d93a12189326188999443d3c49c79290620 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-A9 (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 14e97ecaab4d298cf2ec9164302c2e3d4d4a30 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 34d7845ea5e8a22c134544d62bc004dc728914 (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-
-AA (Directorio - Última fecha de modificación: 10/03/2024 19:58:43)
-   - 00ffab7828f4818589659c804ec2cfd99baed3 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 47b0df9028871de04a692f772570d25b5aabc3 (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-   - 5ca4ec7091071d8ad0d623d0d02b579fb64dcc (Archivo - Última fecha de modificación: 09/03/2024 21:21:56)
-   - 99745ab097fedc6322557eb51a6f54a6d3a636 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - e7c1919db0c8b1e5637110fc1802cdda45a154 (Archivo - Última fecha de modificación: 10/03/2024 19:58:43)
-
-AB (Directorio - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 769346f7ed01ba661e916380b062ff9596b1d7 (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-   - fb298901f68100491a09bcffd8e60c37fe8ae5 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-AC (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 1dbe1c49c91f3d8066190ba8643e84e1081b40 (Archivo - Última fecha de modificación: 14/03/2024 10:45:07)
-   - 3efa9b30ac44d4383ef4cab899c1c87d79647e (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 65076a6df845785bcbcf5db75cea91fc4c28af (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 77b73e50931ad23b54caff6c30c86b9126d537 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - cc704c3ed80bd04a9b498bbe12f6891a693f64 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-AD (Directorio - Última fecha de modificación: 14/03/2024 13:38:34)
-   - 66af95ceb9240260ea26e0164a05932410aa3c (Archivo - Última fecha de modificación: 14/03/2024 13:38:34)
-
-AE (Directorio - Última fecha de modificación: 11/03/2024 13:42:20)
-   - 7440228d0c1b1fd13334d541916eb9ae291642 (Archivo - Última fecha de modificación: 11/03/2024 13:42:20)
-
-AF (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 1673fe4fc51daf82a03f25fadf1a9797e5a32d (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 4a387b993ad5bbcf36b101a78603d9fe55376a (Archivo - Última fecha de modificación: 14/03/2024 11:00:01)
-   - a6437e0a6fea7704166e96fd717c0d429c44e9 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - d05813f8255a1045360402ba4f133486bf1bf2 (Archivo - Última fecha de modificación: 09/03/2024 17:20:09)
-   - e7a1174900ae6a6209bb124488ad8904d4d3ee (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-B0 (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - b1c393afb134dbd6a7f3194bdd10092a22f53c (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-B1 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 74bc26b6921a03998b7bd425cee8e2e1a49177 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - e911d9b344b3d4b0da1aee1b4dc9f1152ce0a1 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-B2 (Directorio - Última fecha de modificación: 14/03/2024 11:07:43)
-   - 498e3c7c2ad7bc0f934d34dcac2af7cc0c9e3d (Archivo - Última fecha de modificación: 14/03/2024 11:07:43)
-   - 820e50d2f48c844d16826468c5adfd3c948758 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-B3 (Directorio - Última fecha de modificación: 14/03/2024 10:59:29)
-   - c4877f05577ecfdd90f1d2319e54dd9f74c0a3 (Archivo - Última fecha de modificación: 14/03/2024 10:59:29)
-
-B4 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 3b360812a2580af3d3886a8fb5f4192f714eb2 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-B5 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 633cbce10b0754257b9904ab7f487b0d034f15 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 88c7539a5ad990c84ae6c8d9b86394ccbed0cc (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-B6 (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 4d3c9d02809c17c38845f44abd83a45227e764 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-B7 (Directorio - Última fecha de modificación: 16/03/2024 16:56:51)
-   - 4010ff5e10762dd57f39f0378070045fc57fd1 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 6313fd3b5ab6cdf04786d641703cade43ebe63 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 7a3987e249a99ca461c345ce76e0e78c858e98 (Archivo - Última fecha de modificación: 16/03/2024 16:56:51)
-
-B9 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 38fa60a1eab0c07362c695259916ab5a3d0e99 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 5e410fa489ce7fa35799e27acf4cde6accf33c (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 611fd3d1330b77145fd6b8da691e33391d1096 (Archivo - Última fecha de modificación: 13/03/2024 12:30:03)
-
-BA (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 7b25567b0c11799a3ec465a4c53d734c21d28b (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 851bd26c671eec82d2dee3e608a9631acf52e6 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-BB (Directorio - Última fecha de modificación: 14/03/2024 20:33:11)
-   - 2e93e768151439baea3e16bfb0f8579ed5af5e (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - c433d77c832688248132a28226764f4f652677 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - ec28a550f72d973bfd65790c791e93164ce52e (Archivo - Última fecha de modificación: 14/03/2024 20:33:11)
-
-BC (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - a273015496f9259a53d79b2b037e6ee6702d7e (Archivo - Última fecha de modificación: 09/03/2024 21:21:56)
-   - b0702c06adc9e9b58caf42fa46b79fb7d7b20b (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-BD (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 420566f58f4e1f7e7d41b6e0646ec87bb17610 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 68b16ed549448451cda7ec8d5c1ea10a57eb29 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 7e293b856bc6b5193041ff67dc5149d60a0351 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - d55ecaf060fa3b555ea2e410c52baba0409edb (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-
-BE (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 172e3676177ca75f1e15afabfc42e6e00f88c7 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-BF (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - c2f38274d381e759b012f20012026c7ad7b1f7 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - e315a62f22767a22c37d419985021578a8eb53 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-C1 (Directorio - Última fecha de modificación: 14/03/2024 13:30:20)
-   - 543fa05bdf7939785b9005cef60c9916e86ed9 (Archivo - Última fecha de modificación: 11/03/2024 12:24:01)
-   - 8386d4956ca9bea8aae1d2308b1433a6b73308 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - e97b041657d491e3e6c364c0e6848f3aaf122c (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-
-C2 (Directorio - Última fecha de modificación: 14/03/2024 10:38:09)
-   - 5914413d330e2d1fd8d1eb249115b72e47dd24 (Archivo - Última fecha de modificación: 14/03/2024 10:38:09)
-   - e697cbc4df28863efb07d49ee5d497f6e71053 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-C3 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - dfe588522087bac43f275e642bbee2b9a5ea6d (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - e17e3fe53fa8765b3652875c5c8723d94ee427 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-
-C4 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 2d0d034e782cd660447516c8e9c420d557b75a (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 5865d415354fcf659650df3e0715a4637c4d37 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-C5 (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 1984275d779ddc7515e7f04c154e09f6239e6a (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 2072d5a5aa5191dddaefc5fc04676b508aa9ec (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-
-C6 (Directorio - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 1c2fbe4506f3a002a74332ad820d07c60b3f1c (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 1ef3aa485aab5cf20cec18725a25ef7fc4c256 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 67ed5a537e8411bce25048fbaec801c852068e (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 750eea5f0f80ba0d6368ef975553e21cd62dfd (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 8f1585a4857f6b84e2f41f72f1f7cd73cc6c96 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - c0d5c5aa734f86ea92943eccf991fa1eca83d8 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-
-C7 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 78297ec61dc968b37e1ae92b98d33b86177bef (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-C8 (Directorio - Última fecha de modificación: 12/03/2024 11:35:31)
-   - ef9ceffee8a9b15e80918ab7a71d89c21beda0 (Archivo - Última fecha de modificación: 12/03/2024 12:37:47)
-
-C9 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 048d3df150432a4f04fcc43c38d5105e2928b5 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 74b834cc49cb4ef4fad86041c3571b1e3fea17 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 7af4805da5bf5bbc203c771fc9ba73d617f1f0 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - b3d5946325700b8b75aef057d96cd7998beabb (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - f7c5932e69dd9a57300a7630a8b389c68139ac (Archivo - Última fecha de modificación: 14/03/2024 11:18:27)
-
-CA (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 7028c9e1b72c4a02f918f60863cd8ea3a46006 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - a3632629f683e32bcd552e20347eb5a0bc9dc4 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - a4b44b5c1650f32aacb6a137c5f9bba1589319 (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-   - d98ef06f106ab79d3f7620cd2b54b4a1b6ad0c (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-
-CB (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 22f0ed815262b64e2f1259347322a9f54830bc (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 751f576ed0f21a5b7d52eeacc60fb952d95697 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - d07387dd92fd4141cc725b42b66231d8b70511 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - e1275e869e125b93d12c5681455c72b4602869 (Archivo - Última fecha de modificación: 14/03/2024 10:39:59)
-
-CD (Directorio - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 536dbf9d326572abd0ef060f0ac05f2ecfcaf4 (Archivo - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 7e043a88b29b22a93dac1380950436b1c072b8 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 91100193734279d0c511a975932fdd9cb4fccb (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 96a138ce9f5d49f64ae405895fa9b5f250a381 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - fd57700d2bdb6eb9404de89dc59050dd084c6e (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-
-CE (Directorio - Última fecha de modificación: 09/03/2024 21:21:56)
-   - 326d95caf23d81427d321ea6a4b227248f526e (Archivo - Última fecha de modificación: 09/03/2024 21:21:56)
-   - fd68ba5fa9f3321eab27f14d87135c375e347e (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-D0 (Directorio - Última fecha de modificación: 09/03/2024 21:21:56)
-   - df384574ac04708c860d5c1ad30aa83717d249 (Archivo - Última fecha de modificación: 09/03/2024 21:21:56)
-
-D1 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - cf678903ccb654f4350f173c052e6aac770a22 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - e53402f3ab0c48056ef3ecd321f6b4b4a1515e (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-D2 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 486595036625c11a2edca6009b603f45c5dccd (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 5f0bf4d8f7698fb71b749e797ef0a11bd9dbe1 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-D3 (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 89e4e4d1813a7072625de31c8c6980dd2c33af (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - bc3b4ea9055f592c9c317d0aa7c70349d8d920 (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - e7cbd1fc0e1cb4f5cd9baf31543428865de4cc (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-D5 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 18fe78ac383bb1d42223599b32306f9b8a65bf (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-D7 (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 3c42d244358c37eb86042103e4fdd4015b3365 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 754d1a38a0724bdfe8e265b6326b6c22c98260 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-D8 (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 33767847a02bbab803f71e531dcddcf10256fa (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 7d4e7ecdaadec908f8cde787d9bb8f6b6c2841 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - bad3dc47b45c6c848b2dea95323a56d55513d8 (Archivo - Última fecha de modificación: 14/03/2024 10:45:00)
-
-D9 (Directorio - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 164250472250d4c0d6861adfd99f878ba06140 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-DA (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 424394f8c759a11922466355672f1cd3124754 (Archivo - Última fecha de modificación: 13/03/2024 12:30:03)
-   - 5078815720f8dffc1071e6d642ccfb3105cff8 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - 928f259d83856dc6d04e560c42590ba99bf249 (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-   - d22fb6e9408498b50e3d5cd4273e70290a2abf (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-   - dee1617b9b25f9045e624298f3c4d4e8c13a26 (Archivo - Última fecha de modificación: 14/03/2024 10:59:36)
-   - fd368e94498a10e9f85127e91e4e38a284bba6 (Archivo - Última fecha de modificación: 11/03/2024 10:51:52)
-
-DB (Directorio - Última fecha de modificación: 12/03/2024 11:35:31)
-   - 314fdda0858413ea000e2eff6b8ea8594a7ede (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-
-DC (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 74066fad6ae22037988ce395b5f53d66de38c4 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - b19f399246351a66c0418d6f8298d5b8c98ccf (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - c2e292358535126e615869f2293d798395e7b4 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - d6cb0f4ef9847911a2d558e99e471bafc70533 (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-DD (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 5cf0ad961e25f6f248fef52a0dd51fbcc1f8ce (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 6af2524568e05feb23e57342923e9b76be975a (Archivo - Última fecha de modificación: 14/03/2024 10:59:40)
-   - a9883d3e7c96943f2c109fc244d3d5fd6ab3e0 (Archivo - Última fecha de modificación: 14/03/2024 10:26:04)
-   - d268abc46721b2c9d7c07cf92f145130a5fc5c (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-DE (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 44c7f22fc7d25aaca05b794a2ec832f0898c22 (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - d1cf83039a50cfe31ddbfbe652d05fa614691b (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-DF (Directorio - Última fecha de modificación: 19/03/2024 13:23:14)
-   - 994c685a3ce688222af8600936d484574b9bd3 (Archivo - Última fecha de modificación: 19/03/2024 13:23:14)
-
-E0 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 9cfce2aaef3862f0f18e031ebd577dbf03943f (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - da283046a6b86167b62f6244aa3d876c3ebc92 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-E1 (Directorio - Última fecha de modificación: 14/03/2024 13:30:20)
-   - 583cfa460deda80740aecd06601228859cb393 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - afd83892c9385e5cf3aba166004ea2057b92d0 (Archivo - Última fecha de modificación: 14/03/2024 13:30:20)
-
-E2 (Directorio - Última fecha de modificación: 16/03/2024 16:57:07)
-   - 75943978e2f3f2e8f439d6acab76fa3dd79ddd (Archivo - Última fecha de modificación: 16/03/2024 16:57:07)
-
-E3 (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 58e4b02abe99e126c880ae00dd762d87204716 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-E4 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 03497cf409385ad57451109793a3ad07cd4c47 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 1f75d091f82c6d1af7d982979208378b3967e8 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - a4ae72aba082cc4550829491c04e0145288d13 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-E5 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 4ccce28504697b0b080d9bc641b37f995b21b0 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - b13c1ccfa4fbcc0286927a684d302c36ad8dec (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-   - c74faa1ec40d5730c6fed47106388de464f242 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-
-E6 (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - ac93e687871673b1e36b266af65ef6c106c958 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-E7 (Directorio - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 621fa5a3140f439fb9781078066fd214812b91 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-   - 72fd31cbc266c17b59c1c4993b19e96389057a (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-E8 (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 01512865db1b280ab8d933914c008d28b652de (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 9ef22ece63140423b22729bf02ec5932a4e601 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-
-E9 (Directorio - Última fecha de modificación: 14/03/2024 11:01:22)
-   - 522046e506302b7b4c79c556c1594c41d3f3b2 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - cb76610df5f848dd9a1b98ce03a0e2b207e53d (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - eb285f4119462d390f11962978fd327dab956a (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-EB (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 23402c4ac9cf3b71c957736acf93e58453f98d (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - 68432ca850c17dc3f4402073e36daf277d2420 (Archivo - Última fecha de modificación: 14/03/2024 11:01:22)
-   - b1e6f768e3403e41cb54b6453d56fbef54a647 (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-EE (Directorio - Última fecha de modificación: 14/03/2024 10:59:08)
-   - fc6e624ee21055ce9846dfaafaeeb73df9be5c (Archivo - Última fecha de modificación: 14/03/2024 11:07:08)
-
-EF (Directorio - Última fecha de modificación: 15/03/2024 21:27:59)
-   - 8a1f7012f363fb7f4d5944a2eeca4f73ad16c7 (Archivo - Última fecha de modificación: 15/03/2024 21:27:59)
-   - a80bfd0cf7b42a40d5b458c847d2494fd2c6c1 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - ffd1d2b1c137f55e7fa88b5a2a991568a31a9a (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-F0 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 42771648d4f46ab18119872a68907984dfa53d (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 7d0b619006e9203944db46091b6c47b02971b6 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 9faff0e37d13266660b0b72197c57b47b55200 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-F1 (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 0add916a4b719f9da7ceda3fd0d0e02743becc (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 42760d1498f2e4ee2041993f4e5b91ba3b1ad2 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - 9f85baea6bbd62cff82a138bb9601d234e5040 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-F2 (Directorio - Última fecha de modificación: 11/03/2024 13:00:17)
-   - 683f6586878847b44728232c432c38ad9d7bf0 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - 7ee1ff4d28781e7a8a9493239413e620b2cb00 (Archivo - Última fecha de modificación: 12/03/2024 11:35:31)
-   - a2897e791c6fcbd529870be7e5fc9bebe02b30 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-
-F3 (Directorio - Última fecha de modificación: 14/03/2024 10:34:23)
-   - 0876d352c665ca35be4121f337097ca561d6da (Archivo - Última fecha de modificación: 13/03/2024 21:52:57)
-   - 53436dcf4d70fccb78d245976d5e96407542e4 (Archivo - Última fecha de modificación: 14/03/2024 10:34:23)
-   - c35629b1dc8f8200d8279b13f8cf1ffbc47845 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-F4 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 4e87d40c1ed8109f8f280c2826f785306da0e1 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 5ba9da9c52d2ae33763fd5a59626deba15ed83 (Archivo - Última fecha de modificación: 09/03/2024 17:35:16)
-   - d581995227c88849eb27957f2818135ba5ad55 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-F5 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 9c356b3eee95d70a1093729a26e78c01328b87 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - c6af13d4d996d26a750d57e095089f1cd85698 (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-
-F6 (Directorio - Última fecha de modificación: 15/03/2024 21:28:14)
-   - 825a4c40aa22118a54c6452d402d35d96503bc (Archivo - Última fecha de modificación: 15/03/2024 21:28:14)
-
-F7 (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 1a39a3952ad4e100ae8c2563bc0ea21f5f5a69 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - b23da97cf29c32f562bc675938e8d4f63fd491 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-F9 (Directorio - Última fecha de modificación: 14/03/2024 13:30:32)
-   - 3867e4b2317c4a377d78996729f4437f8753d0 (Archivo - Última fecha de modificación: 09/03/2024 17:49:46)
-   - 3e56424a641a7b71e549c57e466925e69acecd (Archivo - Última fecha de modificación: 14/03/2024 13:30:32)
-   - e9b64ddf7ccf356a0226775d59ed322f1b94d5 (Archivo - Última fecha de modificación: 14/03/2024 10:34:47)
-
-FA (Directorio - Última fecha de modificación: 12/03/2024 11:36:44)
-   - 3d61ae5aa44d30f6c6765f9fc0c5219194087b (Archivo - Última fecha de modificación: 09/03/2024 21:22:49)
-   - 716f214e54a0f53cfb7051a5511fa927bb11ce (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 798948fb3e3e55418519651ff5a2a3d3f124fc (Archivo - Última fecha de modificación: 12/03/2024 11:36:44)
-   - e3ed63100b4ada7c964095ff8fd1b97e7c7ca5 (Archivo - Última fecha de modificación: 11/03/2024 12:33:15)
-   - fa281069b1e0bc92fe48434f94d32e392d58a9 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-FB (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 2675f93666d2cf7a847d1232e7f87aa3b2afed (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - d10e719af4234acf380d48cfc86e43d6e1a27b (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-   - f5e6f57ec54e458978a90d9039dadf28b0b7e5 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-FC (Directorio - Última fecha de modificación: 20/03/2024 18:25:28)
-   - 548b6e10b3589c1cfcc8186d16a5b946ffa158 (Archivo - Última fecha de modificación: 20/03/2024 18:25:28)
-   - 61f6cd20dd85d08c8050c16f81c83e6e99c343 (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-   - e926ceb36190679fd4549a4e5c793581979a1e (Archivo - Última fecha de modificación: 13/03/2024 12:30:03)
-
-FD (Directorio - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 25d791b411b9144c8a7113b47ca08022c16b18 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-   - 6eeb60ad4c8c542da1cd9f59aef6d9ddbecac4 (Archivo - Última fecha de modificación: 14/03/2024 11:01:46)
-
-FF (Directorio - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 7a111f2746b58737ff68f7bb26d05eaf29b951 (Archivo - Última fecha de modificación: 09/03/2024 17:42:09)
-   - 8a76ce10cf752a3fb8608b9d41ecbf548d1059 (Archivo - Última fecha de modificación: 09/03/2024 17:35:17)
-
-INFO (Directorio - Última fecha de modificación: 09/03/2024 17:15:19)
-** El directorio INFO está vacío y no contiene ningún archivo o carpeta. **
-
-PACK (Directorio - Última fecha de modificación: 09/03/2024 17:15:19)
-** El directorio PACK está vacío y no contiene ningún archivo o carpeta. **
-
-REFS (Directorio - Última fecha de modificación: 09/03/2024 18:46:30)
-
-HEADS (Directorio - Última fecha de modificación: 19/03/2024 13:23:38)
-   - master (Archivo - Última fecha de modificación: 19/03/2024 13:23:38)
-
-REMOTES (Directorio - Última fecha de modificación: 09/03/2024 18:46:30)
-
-ORIGIN (Directorio - Última fecha de modificación: 19/03/2024 13:23:45)
-   - master (Archivo - Última fecha de modificación: 19/03/2024 13:23:45)
-
-TAGS (Directorio - Última fecha de modificación: 09/03/2024 17:15:19)
-** El directorio TAGS está vacío y no contiene ningún archivo o carpeta. **
-   - .gitignore (Archivo - Última fecha de modificación: 19/02/2024 13:34:39)
-
-.IDEA (Directorio - Última fecha de modificación: 20/03/2024 18:48:00)
-   - .gitignore (Archivo - Última fecha de modificación: 19/02/2024 13:35:06)
-   - compiler.xml (Archivo - Última fecha de modificación: 13/03/2024 22:22:49)
-   - encodings.xml (Archivo - Última fecha de modificación: 19/02/2024 13:35:06)
-   - jarRepositories.xml (Archivo - Última fecha de modificación: 11/03/2024 11:29:17)
-   - misc.xml (Archivo - Última fecha de modificación: 13/03/2024 22:20:57)
-   - uiDesigner.xml (Archivo - Última fecha de modificación: 20/02/2024 12:22:22)
-   - vcs.xml (Archivo - Última fecha de modificación: 09/03/2024 19:17:49)
-   - workspace.xml (Archivo - Última fecha de modificación: 20/03/2024 18:48:00)
-
-OUTPUT (Directorio - Última fecha de modificación: 20/03/2024 18:48:15)
-   - arbolDirectorios.txt (Archivo - Última fecha de modificación: 20/03/2024 18:48:15)
-   - arbolDirectorios_Nivell2.txt (Archivo - Última fecha de modificación: 13/03/2024 12:21:52)
-   - Objecte.json (Archivo - Última fecha de modificación: 15/03/2024 20:36:30)
-   - pom.xml (Archivo - Última fecha de modificación: 13/03/2024 13:39:31)
-   - registroSerializado.ser (Archivo - Última fecha de modificación: 28/02/2024 18:56:24)
-
-SRC (Directorio - Última fecha de modificación: 11/03/2024 13:57:41)
-   - classificacio.txt (Archivo - Última fecha de modificación: 25/02/2024 17:19:36)
-   - countries.txt (Archivo - Última fecha de modificación: 24/02/2024 15:40:40)
-
-MAIN (Directorio - Última fecha de modificación: 22/02/2024 12:40:30)
-
-JAVA (Directorio - Última fecha de modificación: 12/03/2024 11:02:07)
-
-TASCA1_HERENCIA_I_POLIMORFISME (Directorio - Última fecha de modificación: 04/03/2024 19:51:13)
-
-NIVELL1 (Directorio - Última fecha de modificación: 24/02/2024 16:36:17)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 19/03/2024 13:17:33)
-   - Corda.java (Archivo - Última fecha de modificación: 19/03/2024 13:14:52)
-   - Instrument.java (Archivo - Última fecha de modificación: 19/03/2024 13:14:52)
-   - Main.java (Archivo - Última fecha de modificación: 19/03/2024 13:17:33)
-   - Percussio.java (Archivo - Última fecha de modificación: 19/03/2024 13:14:52)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
-   - Vent.java (Archivo - Última fecha de modificación: 19/03/2024 13:14:52)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 19/03/2024 13:22:26)
-   - Cotxe.java (Archivo - Última fecha de modificación: 19/03/2024 13:15:44)
-   - Main.java (Archivo - Última fecha de modificación: 19/03/2024 13:22:26)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
-
-NIVELL2 (Directorio - Última fecha de modificación: 04/03/2024 19:47:27)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 19/03/2024 13:13:22)
-   - Camera.java (Archivo - Última fecha de modificación: 04/03/2024 19:42:40)
-   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 19:50:14)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 19:38:02)
-   - Rellotge.java (Archivo - Última fecha de modificación: 04/03/2024 19:42:52)
-   - Smartphone.java (Archivo - Última fecha de modificación: 04/03/2024 19:50:14)
-   - Telefon.java (Archivo - Última fecha de modificación: 04/03/2024 19:50:14)
-
-NIVELL3 (Directorio - Última fecha de modificación: 09/03/2024 21:20:50)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 19/03/2024 13:22:57)
-   - Basquet.java (Archivo - Última fecha de modificación: 09/03/2024 21:01:13)
-   - F1.java (Archivo - Última fecha de modificación: 09/03/2024 21:03:21)
-   - Futbol.java (Archivo - Última fecha de modificación: 09/03/2024 20:58:56)
-   - Main.java (Archivo - Última fecha de modificación: 06/03/2024 19:24:12)
-   - Motociclisme.java (Archivo - Última fecha de modificación: 09/03/2024 21:03:21)
-   - Noticia.java (Archivo - Última fecha de modificación: 19/03/2024 13:22:57)
-   - Programa.java (Archivo - Última fecha de modificación: 09/03/2024 21:04:45)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 19:56:34)
-   - Redactor.java (Archivo - Última fecha de modificación: 05/03/2024 11:53:40)
-   - Tenis.java (Archivo - Última fecha de modificación: 09/03/2024 21:01:13)
-
-TASCA2_EXCEPTIONS (Directorio - Última fecha de modificación: 21/02/2024 12:24:32)
-
-NIVELL1 (Directorio - Última fecha de modificación: 21/02/2024 12:24:36)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:40:00)
-   - Main.java (Archivo - Última fecha de modificación: 22/02/2024 10:07:36)
-   - Producte.java (Archivo - Última fecha de modificación: 14/03/2024 10:40:00)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
-   - Venda.java (Archivo - Última fecha de modificación: 14/03/2024 10:40:00)
-   - VendaBuidaException.java (Archivo - Última fecha de modificación: 22/02/2024 10:07:36)
-
-NIVELL2 (Directorio - Última fecha de modificación: 07/03/2024 11:13:30)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:38:53)
-   - Entrada.java (Archivo - Última fecha de modificación: 07/03/2024 18:59:44)
-   - Main.java (Archivo - Última fecha de modificación: 07/03/2024 18:57:41)
-   - README.txt (Archivo - Última fecha de modificación: 07/03/2024 11:16:41)
-
-TASCA3_JAVA_COLLECTIONS (Directorio - Última fecha de modificación: 22/02/2024 12:25:20)
-
-NIVELL1 (Directorio - Última fecha de modificación: 22/02/2024 10:07:59)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:40:00)
-   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 11:50:49)
-   - Month.java (Archivo - Última fecha de modificación: 14/03/2024 10:40:00)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 19/03/2024 12:35:41)
-   - Main.java (Archivo - Última fecha de modificación: 19/03/2024 12:35:41)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:38)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 14/03/2024 10:39:47)
-   - Juego.java (Archivo - Última fecha de modificación: 28/02/2024 13:52:14)
-   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 11:51:33)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 12:59:09)
-
-NIVELL2 (Directorio - Última fecha de modificación: 07/03/2024 20:15:12)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:39:59)
-   - Main.java (Archivo - Última fecha de modificación: 08/03/2024 16:59:31)
-   - README.txt (Archivo - Última fecha de modificación: 07/03/2024 12:43:49)
-   - Restaurant.java (Archivo - Última fecha de modificación: 07/03/2024 20:13:08)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 10:44:15)
-   - Main.java (Archivo - Última fecha de modificación: 08/03/2024 16:59:20)
-   - README.txt (Archivo - Última fecha de modificación: 07/03/2024 20:16:00)
-   - Restaurant.java (Archivo - Última fecha de modificación: 08/03/2024 16:58:11)
-
-TASCA4_TESTING (Directorio - Última fecha de modificación: 11/03/2024 11:11:41)
-
-NIVELL1 (Directorio - Última fecha de modificación: 26/02/2024 18:10:33)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:53:47)
-   - Main.java (Archivo - Última fecha de modificación: 26/02/2024 14:09:15)
-   - Mes.java (Archivo - Última fecha de modificación: 14/03/2024 10:53:47)
-   - README.txt (Archivo - Última fecha de modificación: 10/03/2024 20:00:22)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 10:53:47)
-   - CalculoDNI.java (Archivo - Última fecha de modificación: 14/03/2024 10:53:47)
-   - Main.java (Archivo - Última fecha de modificación: 05/03/2024 11:05:05)
-   - README.txt (Archivo - Última fecha de modificación: 10/03/2024 20:00:22)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 14/03/2024 10:45:00)
-   - MainT4_N1_Ex3.java (Archivo - Última fecha de modificación: 26/02/2024 18:29:02)
-   - README.txt (Archivo - Última fecha de modificación: 10/03/2024 20:00:22)
-
-NIVELL2 (Directorio - Última fecha de modificación: 10/03/2024 19:58:09)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:45:07)
-   - Main.java (Archivo - Última fecha de modificación: 11/03/2024 10:55:20)
-   - README.txt (Archivo - Última fecha de modificación: 10/03/2024 19:59:55)
-
-NIVELL3 (Directorio - Última fecha de modificación: 14/03/2024 10:45:17)
-   - Main.java (Archivo - Última fecha de modificación: 11/03/2024 12:22:47)
-   - README.txt (Archivo - Última fecha de modificación: 11/03/2024 12:42:25)
-
-TASCA5_JAVA_UTILS (Directorio - Última fecha de modificación: 11/03/2024 13:40:23)
-
-NIVELL1 (Directorio - Última fecha de modificación: 28/02/2024 13:39:02)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 19/03/2024 13:51:42)
-   - Main.java (Archivo - Última fecha de modificación: 19/03/2024 13:51:42)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 10:53:47)
-   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 19/03/2024 13:32:22)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 20/03/2024 18:44:22)
-   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 19/03/2024 13:55:09)
-   - Main.java (Archivo - Última fecha de modificación: 20/03/2024 18:44:22)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 10:53:47)
-   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 19/03/2024 13:50:58)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 20/03/2024 18:44:22)
-   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 20/03/2024 18:26:29)
-   - Main.java (Archivo - Última fecha de modificación: 20/03/2024 18:44:22)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 10:53:47)
-   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 20/03/2024 18:26:29)
-
-EXERCICI4 (Directorio - Última fecha de modificación: 14/03/2024 10:55:50)
-   - Main.java (Archivo - Última fecha de modificación: 28/02/2024 19:51:09)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 10:55:44)
-
-EXERCICI5 (Directorio - Última fecha de modificación: 14/03/2024 10:56:32)
-   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 18:35:18)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 10:56:22)
-   - Registro.java (Archivo - Última fecha de modificación: 14/03/2024 10:56:32)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 12:26:50)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:57:12)
-   - Main.java (Archivo - Última fecha de modificación: 13/03/2024 11:13:09)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 10:57:12)
-
-TASCA6_GENERICS (Directorio - Última fecha de modificación: 14/03/2024 20:26:52)
-
-NIVELL1 (Directorio - Última fecha de modificación: 29/02/2024 10:13:27)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:58:13)
-   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 11:22:36)
-   - NoGenericMethods.java (Archivo - Última fecha de modificación: 14/03/2024 10:58:13)
-   - Persona.java (Archivo - Última fecha de modificación: 14/03/2024 10:58:13)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:04:23)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 10:58:13)
-   - GenericMethods.java (Archivo - Última fecha de modificación: 29/02/2024 11:44:28)
-   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 11:49:13)
-   - Persona.java (Archivo - Última fecha de modificación: 14/03/2024 10:58:13)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:04:48)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 12:32:31)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 21:39:33)
-   - GenericMethods.java (Archivo - Última fecha de modificación: 14/03/2024 21:39:33)
-   - Main.java (Archivo - Última fecha de modificación: 14/03/2024 21:39:33)
-   - Persona.java (Archivo - Última fecha de modificación: 14/03/2024 10:59:03)
-   - README.txt (Archivo - Última fecha de modificación: 13/03/2024 12:29:36)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 21:40:57)
-   - GenericMethods.java (Archivo - Última fecha de modificación: 14/03/2024 21:40:57)
-   - Main.java (Archivo - Última fecha de modificación: 13/03/2024 12:37:52)
-   - Persona.java (Archivo - Última fecha de modificación: 14/03/2024 10:59:03)
-   - README.txt (Archivo - Última fecha de modificación: 13/03/2024 12:33:00)
-
-NIVELL3 (Directorio - Última fecha de modificación: 14/03/2024 20:27:15)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 21:33:35)
-   - Generic.java (Archivo - Última fecha de modificación: 14/03/2024 21:30:06)
-   - Main.java (Archivo - Última fecha de modificación: 14/03/2024 21:46:02)
-   - Phone.java (Archivo - Última fecha de modificación: 15/03/2024 21:33:35)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 20:27:47)
-   - Smartphone.java (Archivo - Última fecha de modificación: 14/03/2024 21:26:34)
-
-TASCA7_ANNOTATIONS (Directorio - Última fecha de modificación: 13/03/2024 23:29:00)
-
-NIVELL1 (Directorio - Última fecha de modificación: 29/02/2024 11:53:50)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 10:33:30)
-   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 12:25:36)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:07:36)
-   - Treballador.java (Archivo - Última fecha de modificación: 14/03/2024 10:33:30)
-   - TreballadorOnline.java (Archivo - Última fecha de modificación: 14/03/2024 10:33:30)
-   - TreballadorPresencial.java (Archivo - Última fecha de modificación: 14/03/2024 10:33:30)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 10:33:30)
-   - Main.java (Archivo - Última fecha de modificación: 29/02/2024 12:42:39)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:02)
-   - Treballador.java (Archivo - Última fecha de modificación: 14/03/2024 10:33:30)
-   - TreballadorOnline.java (Archivo - Última fecha de modificación: 14/03/2024 10:33:30)
-   - TreballadorPresencial.java (Archivo - Última fecha de modificación: 14/03/2024 10:33:30)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 12:39:15)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 20:36:22)
-   - Main.java (Archivo - Última fecha de modificación: 14/03/2024 10:29:17)
-   - Paraula.java (Archivo - Última fecha de modificación: 15/03/2024 20:36:22)
-   - README.txt (Archivo - Última fecha de modificación: 13/03/2024 12:40:14)
-   - Serialitzador.java (Archivo - Última fecha de modificación: 15/03/2024 20:36:22)
-
-NIVELL3 (Directorio - Última fecha de modificación: 15/03/2024 20:39:48)
-   - Main.java (Archivo - Última fecha de modificación: 14/03/2024 13:30:13)
-   - Paraula.java (Archivo - Última fecha de modificación: 15/03/2024 20:38:59)
-   - README.txt (Archivo - Última fecha de modificación: 13/03/2024 23:29:38)
-   - Serialitzador.java (Archivo - Última fecha de modificación: 15/03/2024 20:39:48)
-
-TASCA8_LAMBDAS (Directorio - Última fecha de modificación: 14/03/2024 13:36:55)
-
-NIVELL1 (Directorio - Última fecha de modificación: 04/03/2024 12:26:32)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 21:20:47)
-   - Main.java (Archivo - Última fecha de modificación: 15/03/2024 21:20:47)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 15/03/2024 21:20:47)
-   - Main.java (Archivo - Última fecha de modificación: 15/03/2024 21:20:47)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 14/03/2024 10:59:29)
-   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 11:23:52)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
-
-EXERCICI4 (Directorio - Última fecha de modificación: 14/03/2024 10:59:35)
-   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 11:23:52)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
-
-EXERCICI5 (Directorio - Última fecha de modificación: 14/03/2024 10:59:40)
-   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 12:15:08)
-   - Pi.java (Archivo - Última fecha de modificación: 04/03/2024 12:06:19)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
-
-EXERCICI6 (Directorio - Última fecha de modificación: 15/03/2024 21:20:47)
-   - Main.java (Archivo - Última fecha de modificación: 15/03/2024 21:20:47)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
-
-EXERCICI7 (Directorio - Última fecha de modificación: 15/03/2024 21:21:19)
-   - Main.java (Archivo - Última fecha de modificación: 15/03/2024 21:21:19)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
-
-EXERCICI8 (Directorio - Última fecha de modificación: 14/03/2024 11:00:01)
-   - FuncInter.java (Archivo - Última fecha de modificación: 04/03/2024 13:33:55)
-   - Main.java (Archivo - Última fecha de modificación: 04/03/2024 13:40:53)
-   - README.txt (Archivo - Última fecha de modificación: 04/03/2024 13:08:46)
-
-NIVELL2 (Directorio - Última fecha de modificación: 14/03/2024 12:20:10)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 21:18:50)
-   - Main.java (Archivo - Última fecha de modificación: 15/03/2024 21:18:50)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 11:11:54)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 15/03/2024 21:18:50)
-   - Main.java (Archivo - Última fecha de modificación: 15/03/2024 21:18:50)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 11:18:59)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 14/03/2024 12:20:40)
-   - FuncInter.java (Archivo - Última fecha de modificación: 14/03/2024 12:02:22)
-   - Main.java (Archivo - Última fecha de modificación: 14/03/2024 12:20:40)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 11:37:50)
-
-EXERCICI4 (Directorio - Última fecha de modificación: 15/03/2024 21:25:05)
-   - Main.java (Archivo - Última fecha de modificación: 15/03/2024 21:25:05)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 12:21:40)
-
-NIVELL3 (Directorio - Última fecha de modificación: 14/03/2024 13:36:49)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 21:16:55)
-   - Main.java (Archivo - Última fecha de modificación: 15/03/2024 21:16:55)
-   - README.txt (Archivo - Última fecha de modificación: 14/03/2024 13:40:49)
-   - Student.java (Archivo - Última fecha de modificación: 14/03/2024 19:51:52)
-
-RESOURCES (Directorio - Última fecha de modificación: 13/03/2024 12:21:42)
-   - config.properties (Archivo - Última fecha de modificación: 13/03/2024 12:21:42)
-
-TEST (Directorio - Última fecha de modificación: 19/02/2024 13:34:44)
-
-JAVA (Directorio - Última fecha de modificación: 11/03/2024 13:52:24)
-
-TASCA4_TESTING (Directorio - Última fecha de modificación: 11/03/2024 11:12:47)
-
-NIVELL1 (Directorio - Última fecha de modificación: 26/02/2024 18:10:41)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 27/02/2024 11:25:28)
-   - MesTest.java (Archivo - Última fecha de modificación: 27/02/2024 11:25:28)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 26/02/2024 18:09:15)
-   - CalculoDNITest.java (Archivo - Última fecha de modificación: 26/02/2024 18:09:15)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 26/02/2024 18:29:43)
-   - MainT4_N1_Ex3Test.java (Archivo - Última fecha de modificación: 26/02/2024 18:29:43)
-
-NIVELL2 (Directorio - Última fecha de modificación: 11/03/2024 10:50:49)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 11/03/2024 11:06:55)
-   - ClasseTest.java (Archivo - Última fecha de modificación: 11/03/2024 11:06:55)
-   - MatcherPersonalitzat.java (Archivo - Última fecha de modificación: 11/03/2024 11:02:43)
-
-NIVELL3 (Directorio - Última fecha de modificación: 11/03/2024 13:34:02)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 12/03/2024 11:32:18)
-   - TestAssertJ1.java (Archivo - Última fecha de modificación: 12/03/2024 11:32:18)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 11/03/2024 13:33:09)
-   - TestAssertJ2.java (Archivo - Última fecha de modificación: 11/03/2024 13:33:09)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 12/03/2024 11:34:06)
-   - TestAssertJ3.java (Archivo - Última fecha de modificación: 12/03/2024 11:34:06)
-
-EXERCICI4 (Directorio - Última fecha de modificación: 11/03/2024 12:56:26)
-   - TestAssertJ4.java (Archivo - Última fecha de modificación: 11/03/2024 12:56:26)
-
-EXERCICI5 (Directorio - Última fecha de modificación: 11/03/2024 13:07:13)
-   - TestAssertJ5.java (Archivo - Última fecha de modificación: 11/03/2024 13:07:13)
-
-EXERCICI6 (Directorio - Última fecha de modificación: 11/03/2024 13:29:09)
-   - Prova.java (Archivo - Última fecha de modificación: 11/03/2024 13:26:22)
-   - TestAssertJ6.java (Archivo - Última fecha de modificación: 11/03/2024 13:29:09)
-
-EXERCICI7 (Directorio - Última fecha de modificación: 11/03/2024 13:37:50)
-   - TestAssertJ7.java (Archivo - Última fecha de modificación: 11/03/2024 13:37:50)
-
-TARGET (Directorio - Última fecha de modificación: 13/03/2024 13:41:15)
-
-CLASSES (Directorio - Última fecha de modificación: 13/03/2024 21:44:57)
-   - config.properties (Archivo - Última fecha de modificación: 13/03/2024 12:21:42)
-
-TASCA1_HERENCIA_I_POLIMORFISME (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-
-NIVELL1 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Corda.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Instrument.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Main.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Percussio.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Vent.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Cotxe.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Main.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 21:23:07)
-   - Camera.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Main.class (Archivo - Última fecha de modificación: 14/03/2024 21:23:07)
-   - Rellotge.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Smartphone.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Telefon.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-
-NIVELL3 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Basquet.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - F1.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Futbol.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Motociclisme.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Noticia.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Programa.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Redactor.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Tenis.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-
-TASCA2_EXCEPTIONS (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-NIVELL1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Producte.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Venda.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-   - VendaBuidaException.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - Entrada.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:58)
-
-TASCA3_JAVA_COLLECTIONS (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-
-NIVELL1 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Month.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Main.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - Juego.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Restaurant.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Restaurant.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-TASCA4_TESTING (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-
-NIVELL1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Mes.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - CalculoDNI.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - MainT4_N1_Ex3.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-NIVELL3 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-TASCA5_JAVA_UTILS (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-NIVELL1 (Directorio - Última fecha de modificación: 20/03/2024 18:31:54)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 20/03/2024 18:31:55)
-   - Main.class (Archivo - Última fecha de modificación: 20/03/2024 18:31:55)
-   - RutaNoValidaException.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 20/03/2024 18:44:44)
-   - DirectorioVacioException.class (Archivo - Última fecha de modificación: 19/03/2024 13:55:12)
-   - Main.class (Archivo - Última fecha de modificación: 20/03/2024 18:44:44)
-   - RutaNoValidaException.class (Archivo - Última fecha de modificación: 19/03/2024 13:52:06)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 20/03/2024 18:44:44)
-   - DirectorioVacioException.class (Archivo - Última fecha de modificación: 20/03/2024 18:31:54)
-   - Main.class (Archivo - Última fecha de modificación: 20/03/2024 18:44:44)
-   - RutaNoValidaException.class (Archivo - Última fecha de modificación: 20/03/2024 18:31:55)
-
-EXERCICI4 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-EXERCICI5 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Registro.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 13/03/2024 22:33:23)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-TASCA6_GENERICS (Directorio - Última fecha de modificación: 14/03/2024 21:23:06)
-
-NIVELL1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - NoGenericMethods.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Persona.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - GenericMethods.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Persona.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 21:40:58)
-   - GenericMethods.class (Archivo - Última fecha de modificación: 14/03/2024 21:40:58)
-   - Main.class (Archivo - Última fecha de modificación: 14/03/2024 21:40:58)
-   - Persona.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 21:40:59)
-   - GenericMethods.class (Archivo - Última fecha de modificación: 14/03/2024 21:40:58)
-   - Main.class (Archivo - Última fecha de modificación: 14/03/2024 21:40:59)
-   - Persona.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-NIVELL3 (Directorio - Última fecha de modificación: 14/03/2024 21:23:06)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Generic.class (Archivo - Última fecha de modificación: 14/03/2024 21:34:33)
-   - Main.class (Archivo - Última fecha de modificación: 14/03/2024 21:46:04)
-   - Phone.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Smartphone.class (Archivo - Última fecha de modificación: 14/03/2024 21:27:12)
-
-TASCA7_ANNOTATIONS (Directorio - Última fecha de modificación: 14/03/2024 10:29:30)
-
-NIVELL1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Treballador.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-   - TreballadorOnline.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-   - TreballadorPresencial.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 14/03/2024 11:16:32)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Treballador.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-   - TreballadorOnline.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-   - TreballadorPresencial.class (Archivo - Última fecha de modificación: 14/03/2024 11:16:32)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 20:36:29)
-   - Main.class (Archivo - Última fecha de modificación: 15/03/2024 20:26:40)
-   - Paraula.class (Archivo - Última fecha de modificación: 15/03/2024 20:36:29)
-   - Serialitzador.class (Archivo - Última fecha de modificación: 15/03/2024 20:36:29)
-   - SerializeToJSON.class (Archivo - Última fecha de modificación: 13/03/2024 13:41:14)
-
-NIVELL3 (Directorio - Última fecha de modificación: 15/03/2024 20:49:36)
-   - Main.class (Archivo - Última fecha de modificación: 14/03/2024 13:36:10)
-   - Paraula.class (Archivo - Última fecha de modificación: 15/03/2024 20:49:35)
-   - Serialitzador.class (Archivo - Última fecha de modificación: 15/03/2024 20:49:36)
-
-TASCA8_LAMBDAS (Directorio - Última fecha de modificación: 14/03/2024 20:02:35)
-
-NIVELL1 (Directorio - Última fecha de modificación: 15/03/2024 21:21:21)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 21:21:21)
-   - Main.class (Archivo - Última fecha de modificación: 15/03/2024 21:21:21)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 15/03/2024 21:21:21)
-   - Main.class (Archivo - Última fecha de modificación: 15/03/2024 21:21:21)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 13/03/2024 13:41:13)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-EXERCICI4 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-EXERCICI5 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - Main.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Pi.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-
-EXERCICI6 (Directorio - Última fecha de modificación: 15/03/2024 21:21:21)
-   - Main.class (Archivo - Última fecha de modificación: 15/03/2024 21:21:21)
-
-EXERCICI7 (Directorio - Última fecha de modificación: 15/03/2024 21:21:21)
-   - Main.class (Archivo - Última fecha de modificación: 15/03/2024 21:21:21)
-
-EXERCICI8 (Directorio - Última fecha de modificación: 14/03/2024 12:14:59)
-   - FuncInter.class (Archivo - Última fecha de modificación: 13/03/2024 21:44:59)
-   - Main.class (Archivo - Última fecha de modificación: 14/03/2024 12:14:59)
-
-NIVELL2 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 21:21:21)
-   - Main.class (Archivo - Última fecha de modificación: 15/03/2024 21:21:21)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 15/03/2024 21:21:21)
-   - Main.class (Archivo - Última fecha de modificación: 15/03/2024 21:21:21)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 14/03/2024 12:26:41)
-   - FuncInter.class (Archivo - Última fecha de modificación: 14/03/2024 12:14:59)
-   - Main.class (Archivo - Última fecha de modificación: 14/03/2024 12:26:41)
-
-EXERCICI4 (Directorio - Última fecha de modificación: 19/03/2024 13:42:49)
-   - Main.class (Archivo - Última fecha de modificación: 19/03/2024 13:42:49)
-
-NIVELL3 (Directorio - Última fecha de modificación: 14/03/2024 20:02:35)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 15/03/2024 21:16:57)
-   - Main.class (Archivo - Última fecha de modificación: 15/03/2024 21:16:57)
-   - Student.class (Archivo - Última fecha de modificación: 14/03/2024 20:02:35)
-
-GENERATED-SOURCES (Directorio - Última fecha de modificación: 13/03/2024 13:41:12)
-
-ANNOTATIONS (Directorio - Última fecha de modificación: 13/03/2024 13:41:12)
-** El directorio ANNOTATIONS está vacío y no contiene ningún archivo o carpeta. **
-
-GENERATED-TEST-SOURCES (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-TEST-ANNOTATIONS (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-** El directorio TEST-ANNOTATIONS está vacío y no contiene ningún archivo o carpeta. **
-
-MAVEN-STATUS (Directorio - Última fecha de modificación: 13/03/2024 13:41:12)
-
-MAVEN-COMPILER-PLUGIN (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-COMPILE (Directorio - Última fecha de modificación: 13/03/2024 13:41:12)
-
-DEFAULT-COMPILE (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - createdFiles.lst (Archivo - Última fecha de modificación: 13/03/2024 13:41:14)
-   - inputFiles.lst (Archivo - Última fecha de modificación: 13/03/2024 13:41:12)
-
-TESTCOMPILE (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-DEFAULT-TESTCOMPILE (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - createdFiles.lst (Archivo - Última fecha de modificación: 13/03/2024 13:41:14)
-   - inputFiles.lst (Archivo - Última fecha de modificación: 13/03/2024 13:41:14)
-
-SUREFIRE-REPORTS (Directorio - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell1.Exercici1.MesTest.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell1.Exercici2.CalculoDNITest.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell1.Exercici3.MainT4_N1_Ex3Test.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell2.Exercici1.ClasseTest.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell3.Exercici1.TestAssertJ1.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell3.Exercici2.TestAssertJ2.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell3.Exercici3.TestAssertJ3.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell3.Exercici4.TestAssertJ4.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell3.Exercici5.TestAssertJ5.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell3.Exercici6.TestAssertJ6.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - Tasca4_Testing.Nivell3.Exercici7.TestAssertJ7.txt (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell1.Exercici1.MesTest.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell1.Exercici2.CalculoDNITest.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell1.Exercici3.MainT4_N1_Ex3Test.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell2.Exercici1.ClasseTest.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell3.Exercici1.TestAssertJ1.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell3.Exercici2.TestAssertJ2.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell3.Exercici3.TestAssertJ3.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell3.Exercici4.TestAssertJ4.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell3.Exercici5.TestAssertJ5.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell3.Exercici6.TestAssertJ6.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-   - TEST-Tasca4_Testing.Nivell3.Exercici7.TestAssertJ7.xml (Archivo - Última fecha de modificación: 13/03/2024 13:41:16)
-
-TEST-CLASSES (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-TASCA4_TESTING (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-NIVELL1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - MesTest.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - CalculoDNITest.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - MainT4_N1_Ex3Test.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-NIVELL2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - ClasseTest.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-   - MatcherPersonalitzat.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-NIVELL3 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-
-EXERCICI1 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - TestAssertJ1.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-EXERCICI2 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - TestAssertJ2.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-EXERCICI3 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - TestAssertJ3.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-EXERCICI4 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - TestAssertJ4.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-EXERCICI5 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - TestAssertJ5.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-EXERCICI6 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - Prova.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-   - TestAssertJ6.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
-
-EXERCICI7 (Directorio - Última fecha de modificación: 13/03/2024 13:41:14)
-   - TestAssertJ7.class (Archivo - Última fecha de modificación: 15/03/2024 18:01:41)
+TASCA1_HERENCIA_I_POLIMORFISME (Directorio - Última fecha de modificación: 21/03/2024 13:41:58)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:41:58)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:22:57)
+   - Corda.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Instrument.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Percussio.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:22:57)
+   - Vent.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:23:17)
+   - Cotxe.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:23:17)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:41:58)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Camera.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Rellotge.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Smartphone.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Telefon.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+NIVELL3 (Directorio - Última fecha de modificación: 21/03/2024 13:41:58)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Basquet.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - F1.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Futbol.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Motociclisme.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Noticia.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - Programa.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Redactor.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Tenis.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+
+TASCA2_EXCEPTIONS (Directorio - Última fecha de modificación: 21/03/2024 13:42:25)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:25)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Producte.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Venda.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - VendaBuidaException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:25)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Entrada.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+TASCA3_JAVA_COLLECTIONS (Directorio - Última fecha de modificación: 21/03/2024 13:42:33)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:33)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - Month.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 10:35:07)
+   - Juego.java (Archivo - Última fecha de modificación: 21/03/2024 13:47:18)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:35:07)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:33)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Restaurant.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Restaurant.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+TASCA4_TESTING (Directorio - Última fecha de modificación: 21/03/2024 13:42:36)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:36)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Mes.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - CalculoDNI.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - MainT4_N1_Ex3.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:36)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL3 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+TASCA5_JAVA_UTILS (Directorio - Última fecha de modificación: 21/03/2024 13:42:40)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:40)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+EXERCICI4 (Directorio - Última fecha de modificación: 25/03/2024 10:44:31)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 10:44:31)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+EXERCICI5 (Directorio - Última fecha de modificación: 25/03/2024 10:44:31)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 10:44:31)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Registro.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:40)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:34:07)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:34:07)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+TASCA6_GENERICS (Directorio - Última fecha de modificación: 21/03/2024 13:42:44)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:44)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - NoGenericMethods.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Persona.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - GenericMethods.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Persona.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:44)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - GenericMethods.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Persona.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - GenericMethods.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Persona.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL3 (Directorio - Última fecha de modificación: 21/03/2024 13:42:44)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Generic.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Phone.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Smartphone.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+TASCA7_ANNOTATIONS (Directorio - Última fecha de modificación: 21/03/2024 13:42:47)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:47)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Treballador.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - TreballadorOnline.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - TreballadorPresencial.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Treballador.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - TreballadorOnline.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - TreballadorPresencial.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:47)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - Paraula.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Serialitzador.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+NIVELL3 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Paraula.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Serialitzador.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+TASCA8_LAMBDAS (Directorio - Última fecha de modificación: 21/03/2024 13:42:51)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:51)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI4 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI5 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Pi.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI6 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI7 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI8 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - FuncInter.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:51)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - FuncInter.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI4 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL3 (Directorio - Última fecha de modificación: 21/03/2024 13:42:51)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Student.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
