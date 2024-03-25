@@ -292,3 +292,297 @@ EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 10:29:11)
    - Main.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:54)
    - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
    - Student.java (Archivo - Última fecha de modificación: 21/03/2024 13:42:53)
+
+TASCA1_HERENCIA_I_POLIMORFISME (Directorio - Última fecha de modificación: 21/03/2024 13:41:58)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:41:58)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Corda.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Instrument.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Percussio.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:22:57)
+   - Vent.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Cotxe.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:23:17)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:41:58)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Camera.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Rellotge.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Smartphone.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Telefon.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+NIVELL3 (Directorio - Última fecha de modificación: 21/03/2024 13:41:58)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Basquet.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - F1.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Futbol.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Motociclisme.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Noticia.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Programa.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Redactor.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Tenis.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+
+TASCA2_EXCEPTIONS (Directorio - Última fecha de modificación: 21/03/2024 13:42:25)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:25)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Producte.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Venda.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - VendaBuidaException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:25)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Entrada.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+TASCA3_JAVA_COLLECTIONS (Directorio - Última fecha de modificación: 21/03/2024 13:42:33)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:33)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Month.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Juego.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:35:07)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:33)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Restaurant.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Restaurant.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+TASCA4_TESTING (Directorio - Última fecha de modificación: 21/03/2024 13:42:36)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:36)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Mes.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - CalculoDNI.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - MainT4_N1_Ex3.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:36)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL3 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+TASCA5_JAVA_UTILS (Directorio - Última fecha de modificación: 21/03/2024 13:42:40)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:40)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+EXERCICI4 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+
+EXERCICI5 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Registro.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:40)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - DirectorioVacioException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - RutaNoValidaException.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+
+TASCA6_GENERICS (Directorio - Última fecha de modificación: 21/03/2024 13:42:44)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:44)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - NoGenericMethods.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Persona.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - GenericMethods.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Persona.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:44)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - GenericMethods.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Persona.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - GenericMethods.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Persona.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL3 (Directorio - Última fecha de modificación: 21/03/2024 13:42:44)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Generic.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Phone.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Smartphone.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+TASCA7_ANNOTATIONS (Directorio - Última fecha de modificación: 21/03/2024 13:42:47)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:47)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Treballador.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - TreballadorOnline.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - TreballadorPresencial.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Treballador.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - TreballadorOnline.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - TreballadorPresencial.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:47)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Paraula.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Serialitzador.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+
+NIVELL3 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Paraula.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Serialitzador.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+
+TASCA8_LAMBDAS (Directorio - Última fecha de modificación: 21/03/2024 13:42:51)
+
+NIVELL1 (Directorio - Última fecha de modificación: 21/03/2024 13:42:51)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI4 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI5 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Pi.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI6 (Directorio - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI7 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI8 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - FuncInter.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL2 (Directorio - Última fecha de modificación: 21/03/2024 13:42:51)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI2 (Directorio - Última fecha de modificación: 25/03/2024 11:17:12)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:12)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI3 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - FuncInter.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+EXERCICI4 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+
+NIVELL3 (Directorio - Última fecha de modificación: 21/03/2024 13:42:51)
+
+EXERCICI1 (Directorio - Última fecha de modificación: 25/03/2024 11:17:13)
+   - Main.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)
+   - README.txt (Archivo - Última fecha de modificación: 25/03/2024 10:29:11)
+   - Student.java (Archivo - Última fecha de modificación: 25/03/2024 11:17:13)

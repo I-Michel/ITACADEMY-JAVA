@@ -1,6 +1,6 @@
 package Tasca4_Testing.Nivell1.Exercici2;
 
-import Sprint1.Tasca4_Testing.Nivell1.Exercici2.CalculoDNI;
+import SPRINT1.Tasca4_Testing.Nivell1.Exercici2.CalculoDNI;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
