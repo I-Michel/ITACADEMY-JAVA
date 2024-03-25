@@ -1,4 +1,4 @@
-package Tasca4_Testing.Nivell3.Exercici2;
+package SPRINT1_TEST.Tasca4_Testing.Nivell3.Exercici2;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

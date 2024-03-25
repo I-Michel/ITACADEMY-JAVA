@@ -1,4 +1,4 @@
-package Tasca4_Testing.Nivell2.Exercici1;
+package SPRINT1_TEST.Tasca4_Testing.Nivell2.Exercici1;
 
 import org.hamcrest.FeatureMatcher;
 import org.hamcrest.Matcher;
