@@ -24,11 +24,11 @@ SELECT DISTINCT p.apellido1, p.apellido2, p.nombre FROM persona p JOIN alumno_se
 -- 1. Retorna un llistat amb els noms de tots els professors/es i els departaments que tenen vinculats. El llistat també ha de mostrar aquells professors/es que no tenen cap departament associat. El llistat ha de retornar quatre columnes, nom del departament, primer cognom, segon cognom i nom del professor/a. El resultat estarà ordenat alfabèticament de menor a major pel nom del departament, cognoms i el nom.
 SELECT d.nombre AS 'Departamento', p.apellido1, p.apellido2, p.nombre FROM persona p LEFT JOIN profesor pr ON p.id = pr.id_profesor LEFT JOIN departamento d ON pr.id_departamento = d.id ORDER BY d.nombre, p.apellido1, p.apellido2, p.nombre;
 -- 2. Retorna un llistat amb els professors/es que no estan associats a un departament.
-SELECT p.apellido1, p.apellido2, p.nombre FROM persona p LEFT JOIN profesor pr ON p.id = pr.id_profesor WHERE pr.id_departamento IS NULL ORDER BY p.apellido1, p.apellido2, p.nombre;
+SELECT p.apellido1, p.apellido2, p.nombre FROM persona p RIGHT JOIN profesor pr ON p.id = pr.id_profesor WHERE pr.id_departamento IS NULL ORDER BY p.apellido1, p.apellido2, p.nombre;
 -- 3. Retorna un llistat amb els departaments que no tenen professors/es associats.
 SELECT d.nombre FROM departamento d LEFT JOIN profesor pr ON d.id = pr.id_departamento WHERE pr.id_departamento IS NULL ORDER BY d.nombre;
 -- 4. Retorna un llistat amb els professors/es que no imparteixen cap assignatura.
-SELECT p.apellido1, p.apellido2, p.nombre FROM persona p LEFT JOIN profesor pr ON p.id = pr.id_profesor LEFT JOIN asignatura a ON pr.id_profesor = a.id_profesor WHERE a.id_profesor IS NULL AND p.tipo = 'profesor' ORDER BY p.apellido1, p.apellido2, p.nombre;
+SELECT p.apellido1, p.apellido2, p.nombre, p.tipo FROM persona p RIGHT JOIN profesor pr ON p.id = pr.id_profesor LEFT JOIN asignatura a ON pr.id_profesor = a.id_profesor WHERE a.id_profesor IS NULL ORDER BY p.apellido1, p.apellido2, p.nombre;
 -- 5. Retorna un llistat amb les assignatures que no tenen un professor/a assignat.
 SELECT a.nombre FROM asignatura a LEFT JOIN profesor pr ON pr.id_profesor = a.id_profesor WHERE a.id_profesor IS NULL ORDER BY a.nombre;
 -- 6. Retorna un llistat amb tots els departaments que no han impartit assignatures en cap curs escolar.
