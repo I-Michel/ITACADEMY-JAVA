@@ -9,7 +9,7 @@ En tots els exercicis, crea un projecte amb una classe Main que demostri
 l'ús del patró (amb les invocacions necessàries).
 ************************************************************************
 
-ABSTRACT FACTORY
+ABSTRACT FACTORY:
 
 Crea un petit gestor de direccions i números de telèfon internacionals.
 
