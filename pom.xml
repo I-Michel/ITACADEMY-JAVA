@@ -11,7 +11,7 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.SPRINT3.Tasca2_Patterns_2.build.sourceEncoding>UTF-8</project.SPRINT3.Tasca2_Patterns_2.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>

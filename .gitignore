@@ -27,9 +27,9 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+SPRINT3.Tasca2_Patterns_2.build/
+!**/src/main/**/SPRINT3.Tasca2_Patterns_2.build/
+!**/src/test/**/SPRINT3.Tasca2_Patterns_2.build/
 
 ### VS Code ###
 .vscode/
