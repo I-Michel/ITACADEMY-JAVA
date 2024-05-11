@@ -9,7 +9,7 @@ public class Main {
         broker.addObserver(new BrokerageAgency("Japanese Agency"));
         broker.addObserver(new BrokerageAgency("Divina Papaya Agency"));
 
-        broker.listObserver();
+        broker.listObservers();
 
         broker.setStockMarketStatus(true);
         broker.setStockMarketStatus(false);

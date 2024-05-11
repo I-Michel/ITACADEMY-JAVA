@@ -27,7 +27,7 @@ public class Broker implements Observable {
     }
 
     @Override
-    public void listObserver() {
+    public void listObservers() {
         for(Observer agency : agencies) {
             System.out.println(agency);
         }
